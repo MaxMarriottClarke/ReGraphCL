@@ -1,0 +1,18 @@
+universe = vanilla
+executable = run.sh
+arguments = $(ARG)
+transfer_input_files = HardPush.py
+error = logs/gpu.$(Cluster).$(Process).error
+output = logs/gpu.$(Cluster).$(Process).output
+log = logs/gpu.$(Cluster).$(Process).log
+request_gpus = 1
+request_memory = 8G
++MaxRuntime    = 100000
+
+
+requirements = (AssignedGPUs == "GPU-fedc6f6b" || AssignedGPUs == "GPU-627c72ae" || AssignedGPUs == "GPU-26b53f56" || AssignedGPUs == "GPU-5269b953")
+
+priority = 1000
+
+
+queue 
