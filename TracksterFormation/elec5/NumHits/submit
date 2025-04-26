@@ -1,0 +1,17 @@
+universe = vanilla
+executable = run.sh
+arguments = $(ARG)
+transfer_input_files = HardPush.py
+error = logs/gpu.$(Cluster).$(Process).error
+output = logs/gpu.$(Cluster).$(Process).output
+log = logs/gpu.$(Cluster).$(Process).log
+request_gpus = 1
+request_memory = 16G
++MaxRuntime    = 100000
+
+
+
+priority = 1000
+
+
+queue 

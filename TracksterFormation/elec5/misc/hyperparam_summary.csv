@@ -1,0 +1,8 @@
+Hyperparams,Best_Val_Loss
+lr1e-05_bs64_hd128_nl3_temp0.1_cd16_k32,tensor([0.0090], device='cuda:0')
+lr5e-05_bs64_hd128_nl3_temp0.1_cd16_k32,tensor([0.0081], device='cuda:0')
+lr0.0001_bs64_hd128_nl3_temp0.1_cd16_k32,tensor([0.0056], device='cuda:0')
+lr0.001_bs64_hd128_nl3_temp0.1_cd16_k32,tensor([0.0109], device='cuda:0')
+lr0.0005_bs64_hd128_nl3_temp0.1_cd16_k32,tensor([0.0043], device='cuda:0')
+lr0.005_bs64_hd128_nl3_temp0.1_cd16_k32,tensor([0.0102], device='cuda:0')
+lr0.01_bs64_hd128_nl3_temp0.1_cd16_k32,tensor([0.0109], device='cuda:0')
