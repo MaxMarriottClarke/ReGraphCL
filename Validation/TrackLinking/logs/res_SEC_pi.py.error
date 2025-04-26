@@ -1,0 +1,24 @@
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.53s/it]100%|██████████| 1/1 [00:02<00:00,  2.53s/it]
+/vols/cms/mm1221/hgcal/code/code/miniconda/envs/env/lib/python3.11/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+Traceback (most recent call last):
+  File "/vols/cms/mm1221/Data/repo/Track/res_SEC_pi.py", line 292, in <module>
+    event_clusters[cluster_label].extend(Track_ind[event_idx][cluster_idx])
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/vols/cms/mm1221/hgcal/code/code/miniconda/envs/env/lib/python3.11/site-packages/awkward/highlevel.py", line 1103, in __getitem__
+    indexed_layout = prepare_layout(self._layout._getitem(where, NamedAxis))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vols/cms/mm1221/hgcal/code/code/miniconda/envs/env/lib/python3.11/site-packages/awkward/contents/content.py", line 532, in _getitem
+    return self._getitem_at(ak._slicing.normalize_integer_like(where))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vols/cms/mm1221/hgcal/code/code/miniconda/envs/env/lib/python3.11/site-packages/awkward/contents/listoffsetarray.py", line 318, in _getitem_at
+    raise ak._errors.index_error(self, where)
+IndexError: cannot slice ListOffsetArray (of length 0) with 0
+
+This error occurred while attempting to slice
+
+    <Array [] type='0 * var * uint32'>
+
+with
+
+    0

@@ -1,0 +1,1553 @@
+### Loading tracksters data
+/vols/cms/mm1221/Data/100k/5pi/test/raw/test.root
+Reached 500 events!
+### Loading tracksters data
+/vols/cms/mm1221/Data/100k/5e/test/raw/test.root
+Reached 500 events!
+
+[Pions] Threshold = 0.000
+
+Model: Threshold 0.000
+Efficiency: 0.4287 (376 associated CPs out of 877 total CPs)
+FR: 0.0103 (4884 associated Tracksters out of 4935 total Tracksters)
+Num tracksters ratio: 5.627137970353478
+
+[Pions] Threshold = 0.002
+
+Model: Threshold 0.002
+Efficiency: 0.4789 (420 associated CPs out of 877 total CPs)
+FR: 0.0112 (4498 associated Tracksters out of 4549 total Tracksters)
+Num tracksters ratio: 5.187001140250855
+
+[Pions] Threshold = 0.004
+
+Model: Threshold 0.004
+Efficiency: 0.5314 (466 associated CPs out of 877 total CPs)
+FR: 0.0127 (3970 associated Tracksters out of 4021 total Tracksters)
+Num tracksters ratio: 4.584948688711517
+
+[Pions] Threshold = 0.006
+
+Model: Threshold 0.006
+Efficiency: 0.5667 (497 associated CPs out of 877 total CPs)
+FR: 0.0131 (3532 associated Tracksters out of 3579 total Tracksters)
+Num tracksters ratio: 4.080957810718358
+
+[Pions] Threshold = 0.008
+
+Model: Threshold 0.008
+Efficiency: 0.5918 (519 associated CPs out of 877 total CPs)
+FR: 0.0132 (3219 associated Tracksters out of 3262 total Tracksters)
+Num tracksters ratio: 3.719498289623717
+
+[Pions] Threshold = 0.010
+
+Model: Threshold 0.010
+Efficiency: 0.6135 (538 associated CPs out of 877 total CPs)
+FR: 0.0140 (2961 associated Tracksters out of 3003 total Tracksters)
+Num tracksters ratio: 3.4241733181299887
+
+[Pions] Threshold = 0.012
+
+Model: Threshold 0.012
+Efficiency: 0.6328 (555 associated CPs out of 877 total CPs)
+FR: 0.0155 (2724 associated Tracksters out of 2767 total Tracksters)
+Num tracksters ratio: 3.1550741163055873
+
+[Pions] Threshold = 0.014
+
+Model: Threshold 0.014
+Efficiency: 0.6522 (572 associated CPs out of 877 total CPs)
+FR: 0.0152 (2534 associated Tracksters out of 2573 total Tracksters)
+Num tracksters ratio: 2.9338654503990877
+
+[Pions] Threshold = 0.016
+
+Model: Threshold 0.016
+Efficiency: 0.6705 (588 associated CPs out of 877 total CPs)
+FR: 0.0154 (2358 associated Tracksters out of 2395 total Tracksters)
+Num tracksters ratio: 2.7309007981755986
+
+[Pions] Threshold = 0.018
+
+Model: Threshold 0.018
+Efficiency: 0.6864 (602 associated CPs out of 877 total CPs)
+FR: 0.0155 (2216 associated Tracksters out of 2251 total Tracksters)
+Num tracksters ratio: 2.566704675028506
+
+[Pions] Threshold = 0.020
+
+Model: Threshold 0.020
+Efficiency: 0.7013 (615 associated CPs out of 877 total CPs)
+FR: 0.0159 (2099 associated Tracksters out of 2133 total Tracksters)
+Num tracksters ratio: 2.4321550741163054
+
+[Pions] Threshold = 0.022
+
+Model: Threshold 0.022
+Efficiency: 0.7184 (630 associated CPs out of 877 total CPs)
+FR: 0.0148 (2000 associated Tracksters out of 2030 total Tracksters)
+Num tracksters ratio: 2.314709236031927
+
+[Pions] Threshold = 0.024
+
+Model: Threshold 0.024
+Efficiency: 0.7400 (649 associated CPs out of 877 total CPs)
+FR: 0.0156 (1897 associated Tracksters out of 1927 total Tracksters)
+Num tracksters ratio: 2.1972633979475487
+
+[Pions] Threshold = 0.026
+
+Model: Threshold 0.026
+Efficiency: 0.7548 (662 associated CPs out of 877 total CPs)
+FR: 0.0163 (1815 associated Tracksters out of 1845 total Tracksters)
+Num tracksters ratio: 2.1037628278221208
+
+[Pions] Threshold = 0.028
+
+Model: Threshold 0.028
+Efficiency: 0.7651 (671 associated CPs out of 877 total CPs)
+FR: 0.0152 (1745 associated Tracksters out of 1772 total Tracksters)
+Num tracksters ratio: 2.0205245153933866
+
+[Pions] Threshold = 0.030
+
+Model: Threshold 0.030
+Efficiency: 0.7788 (683 associated CPs out of 877 total CPs)
+FR: 0.0147 (1681 associated Tracksters out of 1706 total Tracksters)
+Num tracksters ratio: 1.9452679589509692
+
+[Pions] Threshold = 0.032
+
+Model: Threshold 0.032
+Efficiency: 0.7822 (686 associated CPs out of 877 total CPs)
+FR: 0.0146 (1619 associated Tracksters out of 1643 total Tracksters)
+Num tracksters ratio: 1.8734321550741162
+
+[Pions] Threshold = 0.034
+
+Model: Threshold 0.034
+Efficiency: 0.7879 (691 associated CPs out of 877 total CPs)
+FR: 0.0138 (1573 associated Tracksters out of 1595 total Tracksters)
+Num tracksters ratio: 1.8187001140250856
+
+[Pions] Threshold = 0.036
+
+Model: Threshold 0.036
+Efficiency: 0.7948 (697 associated CPs out of 877 total CPs)
+FR: 0.0129 (1529 associated Tracksters out of 1549 total Tracksters)
+Num tracksters ratio: 1.766248574686431
+
+[Pions] Threshold = 0.038
+
+Model: Threshold 0.038
+Efficiency: 0.8016 (703 associated CPs out of 877 total CPs)
+FR: 0.0132 (1495 associated Tracksters out of 1515 total Tracksters)
+Num tracksters ratio: 1.727480045610034
+
+[Pions] Threshold = 0.040
+
+Model: Threshold 0.040
+Efficiency: 0.8096 (710 associated CPs out of 877 total CPs)
+FR: 0.0136 (1449 associated Tracksters out of 1469 total Tracksters)
+Num tracksters ratio: 1.6750285062713797
+
+[Pions] Threshold = 0.042
+
+Model: Threshold 0.042
+Efficiency: 0.8198 (719 associated CPs out of 877 total CPs)
+FR: 0.0139 (1416 associated Tracksters out of 1436 total Tracksters)
+Num tracksters ratio: 1.637400228050171
+
+[Pions] Threshold = 0.044
+
+Model: Threshold 0.044
+Efficiency: 0.8290 (727 associated CPs out of 877 total CPs)
+FR: 0.0150 (1382 associated Tracksters out of 1403 total Tracksters)
+Num tracksters ratio: 1.5997719498289624
+
+[Pions] Threshold = 0.046
+
+Model: Threshold 0.046
+Efficiency: 0.8335 (731 associated CPs out of 877 total CPs)
+FR: 0.0153 (1355 associated Tracksters out of 1376 total Tracksters)
+Num tracksters ratio: 1.5689851767388825
+
+[Pions] Threshold = 0.048
+
+Model: Threshold 0.048
+Efficiency: 0.8381 (735 associated CPs out of 877 total CPs)
+FR: 0.0172 (1315 associated Tracksters out of 1338 total Tracksters)
+Num tracksters ratio: 1.5256556442417333
+
+[Pions] Threshold = 0.050
+
+Model: Threshold 0.050
+Efficiency: 0.8404 (737 associated CPs out of 877 total CPs)
+FR: 0.0175 (1292 associated Tracksters out of 1315 total Tracksters)
+Num tracksters ratio: 1.499429874572406
+
+[Pions] Threshold = 0.052
+
+Model: Threshold 0.052
+Efficiency: 0.8449 (741 associated CPs out of 877 total CPs)
+FR: 0.0187 (1260 associated Tracksters out of 1284 total Tracksters)
+Num tracksters ratio: 1.4640820980615736
+
+[Pions] Threshold = 0.054
+
+Model: Threshold 0.054
+Efficiency: 0.8540 (749 associated CPs out of 877 total CPs)
+FR: 0.0191 (1230 associated Tracksters out of 1254 total Tracksters)
+Num tracksters ratio: 1.4298745724059294
+
+[Pions] Threshold = 0.056
+
+Model: Threshold 0.056
+Efficiency: 0.8632 (757 associated CPs out of 877 total CPs)
+FR: 0.0195 (1204 associated Tracksters out of 1228 total Tracksters)
+Num tracksters ratio: 1.4002280501710376
+
+[Pions] Threshold = 0.058
+
+Model: Threshold 0.058
+Efficiency: 0.8666 (760 associated CPs out of 877 total CPs)
+FR: 0.0190 (1187 associated Tracksters out of 1210 total Tracksters)
+Num tracksters ratio: 1.3797035347776512
+
+[Pions] Threshold = 0.060
+
+Model: Threshold 0.060
+Efficiency: 0.8700 (763 associated CPs out of 877 total CPs)
+FR: 0.0193 (1168 associated Tracksters out of 1191 total Tracksters)
+Num tracksters ratio: 1.3580387685290765
+
+[Pions] Threshold = 0.062
+
+Model: Threshold 0.062
+Efficiency: 0.8746 (767 associated CPs out of 877 total CPs)
+FR: 0.0196 (1149 associated Tracksters out of 1172 total Tracksters)
+Num tracksters ratio: 1.3363740022805017
+
+[Pions] Threshold = 0.064
+
+Model: Threshold 0.064
+Efficiency: 0.8769 (769 associated CPs out of 877 total CPs)
+FR: 0.0190 (1136 associated Tracksters out of 1158 total Tracksters)
+Num tracksters ratio: 1.3204104903078677
+
+[Pions] Threshold = 0.066
+
+Model: Threshold 0.066
+Efficiency: 0.8780 (770 associated CPs out of 877 total CPs)
+FR: 0.0192 (1123 associated Tracksters out of 1145 total Tracksters)
+Num tracksters ratio: 1.3055872291904218
+
+[Pions] Threshold = 0.068
+
+Model: Threshold 0.068
+Efficiency: 0.8803 (772 associated CPs out of 877 total CPs)
+FR: 0.0195 (1107 associated Tracksters out of 1129 total Tracksters)
+Num tracksters ratio: 1.2873432155074116
+
+[Pions] Threshold = 0.070
+
+Model: Threshold 0.070
+Efficiency: 0.8826 (774 associated CPs out of 877 total CPs)
+FR: 0.0197 (1095 associated Tracksters out of 1117 total Tracksters)
+Num tracksters ratio: 1.273660205245154
+
+[Pions] Threshold = 0.072
+
+Model: Threshold 0.072
+Efficiency: 0.8848 (776 associated CPs out of 877 total CPs)
+FR: 0.0209 (1080 associated Tracksters out of 1103 total Tracksters)
+Num tracksters ratio: 1.25769669327252
+
+[Pions] Threshold = 0.074
+
+Model: Threshold 0.074
+Efficiency: 0.8905 (781 associated CPs out of 877 total CPs)
+FR: 0.0203 (1062 associated Tracksters out of 1084 total Tracksters)
+Num tracksters ratio: 1.2360319270239453
+
+[Pions] Threshold = 0.076
+
+Model: Threshold 0.076
+Efficiency: 0.8928 (783 associated CPs out of 877 total CPs)
+FR: 0.0196 (1052 associated Tracksters out of 1073 total Tracksters)
+Num tracksters ratio: 1.2234891676168758
+
+[Pions] Threshold = 0.078
+
+Model: Threshold 0.078
+Efficiency: 0.8928 (783 associated CPs out of 877 total CPs)
+FR: 0.0178 (1051 associated Tracksters out of 1070 total Tracksters)
+Num tracksters ratio: 1.2200684150513113
+
+[Pions] Threshold = 0.080
+
+Model: Threshold 0.080
+Efficiency: 0.8974 (787 associated CPs out of 877 total CPs)
+FR: 0.0170 (1042 associated Tracksters out of 1060 total Tracksters)
+Num tracksters ratio: 1.2086659064994298
+
+[Pions] Threshold = 0.082
+
+Model: Threshold 0.082
+Efficiency: 0.9019 (791 associated CPs out of 877 total CPs)
+FR: 0.0172 (1026 associated Tracksters out of 1044 total Tracksters)
+Num tracksters ratio: 1.1904218928164196
+
+[Pions] Threshold = 0.084
+
+Model: Threshold 0.084
+Efficiency: 0.9042 (793 associated CPs out of 877 total CPs)
+FR: 0.0165 (1016 associated Tracksters out of 1033 total Tracksters)
+Num tracksters ratio: 1.1778791334093501
+
+[Pions] Threshold = 0.086
+
+Model: Threshold 0.086
+Efficiency: 0.9065 (795 associated CPs out of 877 total CPs)
+FR: 0.0166 (1008 associated Tracksters out of 1025 total Tracksters)
+Num tracksters ratio: 1.168757126567845
+
+[Pions] Threshold = 0.088
+
+Model: Threshold 0.088
+Efficiency: 0.9088 (797 associated CPs out of 877 total CPs)
+FR: 0.0167 (1002 associated Tracksters out of 1019 total Tracksters)
+Num tracksters ratio: 1.1619156214367161
+
+[Pions] Threshold = 0.090
+
+Model: Threshold 0.090
+Efficiency: 0.9122 (800 associated CPs out of 877 total CPs)
+FR: 0.0168 (996 associated Tracksters out of 1013 total Tracksters)
+Num tracksters ratio: 1.1550741163055873
+
+[Pions] Threshold = 0.092
+
+Model: Threshold 0.092
+Efficiency: 0.9145 (802 associated CPs out of 877 total CPs)
+FR: 0.0159 (990 associated Tracksters out of 1006 total Tracksters)
+Num tracksters ratio: 1.1470923603192702
+
+[Pions] Threshold = 0.094
+
+Model: Threshold 0.094
+Efficiency: 0.9190 (806 associated CPs out of 877 total CPs)
+FR: 0.0160 (981 associated Tracksters out of 997 total Tracksters)
+Num tracksters ratio: 1.1368301026225769
+
+[Pions] Threshold = 0.096
+
+Model: Threshold 0.096
+Efficiency: 0.9247 (811 associated CPs out of 877 total CPs)
+FR: 0.0162 (971 associated Tracksters out of 987 total Tracksters)
+Num tracksters ratio: 1.1254275940706955
+
+[Pions] Threshold = 0.098
+
+Model: Threshold 0.098
+Efficiency: 0.9259 (812 associated CPs out of 877 total CPs)
+FR: 0.0164 (960 associated Tracksters out of 976 total Tracksters)
+Num tracksters ratio: 1.112884834663626
+
+[Pions] Threshold = 0.100
+
+Model: Threshold 0.100
+Efficiency: 0.9304 (816 associated CPs out of 877 total CPs)
+FR: 0.0165 (951 associated Tracksters out of 967 total Tracksters)
+Num tracksters ratio: 1.1026225769669327
+
+[Pions] Threshold = 0.102
+
+Model: Threshold 0.102
+Efficiency: 0.9316 (817 associated CPs out of 877 total CPs)
+FR: 0.0166 (946 associated Tracksters out of 962 total Tracksters)
+Num tracksters ratio: 1.096921322690992
+
+[Pions] Threshold = 0.104
+
+Model: Threshold 0.104
+Efficiency: 0.9327 (818 associated CPs out of 877 total CPs)
+FR: 0.0167 (942 associated Tracksters out of 958 total Tracksters)
+Num tracksters ratio: 1.0923603192702394
+
+[Pions] Threshold = 0.106
+
+Model: Threshold 0.106
+Efficiency: 0.9350 (820 associated CPs out of 877 total CPs)
+FR: 0.0168 (936 associated Tracksters out of 952 total Tracksters)
+Num tracksters ratio: 1.0855188141391106
+
+[Pions] Threshold = 0.108
+
+Model: Threshold 0.108
+Efficiency: 0.9373 (822 associated CPs out of 877 total CPs)
+FR: 0.0179 (931 associated Tracksters out of 948 total Tracksters)
+Num tracksters ratio: 1.080957810718358
+
+[Pions] Threshold = 0.110
+
+Model: Threshold 0.110
+Efficiency: 0.9373 (822 associated CPs out of 877 total CPs)
+FR: 0.0181 (921 associated Tracksters out of 938 total Tracksters)
+Num tracksters ratio: 1.0695553021664765
+
+[Pions] Threshold = 0.112
+
+Model: Threshold 0.112
+Efficiency: 0.9384 (823 associated CPs out of 877 total CPs)
+FR: 0.0182 (918 associated Tracksters out of 935 total Tracksters)
+Num tracksters ratio: 1.0661345496009123
+
+[Pions] Threshold = 0.114
+
+Model: Threshold 0.114
+Efficiency: 0.9407 (825 associated CPs out of 877 total CPs)
+FR: 0.0173 (910 associated Tracksters out of 926 total Tracksters)
+Num tracksters ratio: 1.055872291904219
+
+[Pions] Threshold = 0.116
+
+Model: Threshold 0.116
+Efficiency: 0.9453 (829 associated CPs out of 877 total CPs)
+FR: 0.0163 (904 associated Tracksters out of 919 total Tracksters)
+Num tracksters ratio: 1.047890535917902
+
+[Pions] Threshold = 0.118
+
+Model: Threshold 0.118
+Efficiency: 0.9453 (829 associated CPs out of 877 total CPs)
+FR: 0.0164 (902 associated Tracksters out of 917 total Tracksters)
+Num tracksters ratio: 1.0456100342075256
+
+[Pions] Threshold = 0.120
+
+Model: Threshold 0.120
+Efficiency: 0.9453 (829 associated CPs out of 877 total CPs)
+FR: 0.0153 (901 associated Tracksters out of 915 total Tracksters)
+Num tracksters ratio: 1.0433295324971494
+
+[Pions] Threshold = 0.122
+
+Model: Threshold 0.122
+Efficiency: 0.9475 (831 associated CPs out of 877 total CPs)
+FR: 0.0154 (897 associated Tracksters out of 911 total Tracksters)
+Num tracksters ratio: 1.0387685290763968
+
+[Pions] Threshold = 0.124
+
+Model: Threshold 0.124
+Efficiency: 0.9510 (834 associated CPs out of 877 total CPs)
+FR: 0.0154 (893 associated Tracksters out of 907 total Tracksters)
+Num tracksters ratio: 1.0342075256556442
+
+[Pions] Threshold = 0.126
+
+Model: Threshold 0.126
+Efficiency: 0.9521 (835 associated CPs out of 877 total CPs)
+FR: 0.0155 (891 associated Tracksters out of 905 total Tracksters)
+Num tracksters ratio: 1.031927023945268
+
+[Pions] Threshold = 0.128
+
+Model: Threshold 0.128
+Efficiency: 0.9544 (837 associated CPs out of 877 total CPs)
+FR: 0.0166 (886 associated Tracksters out of 901 total Tracksters)
+Num tracksters ratio: 1.0273660205245154
+
+[Pions] Threshold = 0.130
+
+Model: Threshold 0.130
+Efficiency: 0.9544 (837 associated CPs out of 877 total CPs)
+FR: 0.0179 (880 associated Tracksters out of 896 total Tracksters)
+Num tracksters ratio: 1.0216647662485747
+
+[Pions] Threshold = 0.132
+
+Model: Threshold 0.132
+Efficiency: 0.9544 (837 associated CPs out of 877 total CPs)
+FR: 0.0179 (880 associated Tracksters out of 896 total Tracksters)
+Num tracksters ratio: 1.0216647662485747
+
+[Pions] Threshold = 0.134
+
+Model: Threshold 0.134
+Efficiency: 0.9544 (837 associated CPs out of 877 total CPs)
+FR: 0.0179 (880 associated Tracksters out of 896 total Tracksters)
+Num tracksters ratio: 1.0216647662485747
+
+[Pions] Threshold = 0.136
+
+Model: Threshold 0.136
+Efficiency: 0.9544 (837 associated CPs out of 877 total CPs)
+FR: 0.0179 (878 associated Tracksters out of 894 total Tracksters)
+Num tracksters ratio: 1.0193842645381983
+
+[Pions] Threshold = 0.138
+
+Model: Threshold 0.138
+Efficiency: 0.9555 (838 associated CPs out of 877 total CPs)
+FR: 0.0191 (873 associated Tracksters out of 890 total Tracksters)
+Num tracksters ratio: 1.014823261117446
+
+[Pions] Threshold = 0.140
+
+Model: Threshold 0.140
+Efficiency: 0.9578 (840 associated CPs out of 877 total CPs)
+FR: 0.0204 (866 associated Tracksters out of 884 total Tracksters)
+Num tracksters ratio: 1.007981755986317
+
+[Pions] Threshold = 0.142
+
+Model: Threshold 0.142
+Efficiency: 0.9578 (840 associated CPs out of 877 total CPs)
+FR: 0.0216 (859 associated Tracksters out of 878 total Tracksters)
+Num tracksters ratio: 1.001140250855188
+
+[Pions] Threshold = 0.144
+
+Model: Threshold 0.144
+Efficiency: 0.9590 (841 associated CPs out of 877 total CPs)
+FR: 0.0217 (856 associated Tracksters out of 875 total Tracksters)
+Num tracksters ratio: 0.9977194982896237
+
+[Pions] Threshold = 0.146
+
+Model: Threshold 0.146
+Efficiency: 0.9601 (842 associated CPs out of 877 total CPs)
+FR: 0.0218 (852 associated Tracksters out of 871 total Tracksters)
+Num tracksters ratio: 0.9931584948688712
+
+[Pions] Threshold = 0.148
+
+Model: Threshold 0.148
+Efficiency: 0.9612 (843 associated CPs out of 877 total CPs)
+FR: 0.0218 (851 associated Tracksters out of 870 total Tracksters)
+Num tracksters ratio: 0.992018244013683
+
+[Pions] Threshold = 0.150
+
+Model: Threshold 0.150
+Efficiency: 0.9647 (846 associated CPs out of 877 total CPs)
+FR: 0.0231 (847 associated Tracksters out of 867 total Tracksters)
+Num tracksters ratio: 0.9885974914481186
+
+[Pions] Threshold = 0.152
+
+Model: Threshold 0.152
+Efficiency: 0.9647 (846 associated CPs out of 877 total CPs)
+FR: 0.0231 (844 associated Tracksters out of 864 total Tracksters)
+Num tracksters ratio: 0.9851767388825542
+
+[Pions] Threshold = 0.154
+
+Model: Threshold 0.154
+Efficiency: 0.9647 (846 associated CPs out of 877 total CPs)
+FR: 0.0244 (841 associated Tracksters out of 862 total Tracksters)
+Num tracksters ratio: 0.9828962371721779
+
+[Pions] Threshold = 0.156
+
+Model: Threshold 0.156
+Efficiency: 0.9658 (847 associated CPs out of 877 total CPs)
+FR: 0.0245 (837 associated Tracksters out of 858 total Tracksters)
+Num tracksters ratio: 0.9783352337514253
+
+[Pions] Threshold = 0.158
+
+Model: Threshold 0.158
+Efficiency: 0.9669 (848 associated CPs out of 877 total CPs)
+FR: 0.0293 (829 associated Tracksters out of 854 total Tracksters)
+Num tracksters ratio: 0.9737742303306728
+
+[Pions] Threshold = 0.160
+
+Model: Threshold 0.160
+Efficiency: 0.9669 (848 associated CPs out of 877 total CPs)
+FR: 0.0293 (828 associated Tracksters out of 853 total Tracksters)
+Num tracksters ratio: 0.9726339794754846
+
+[Pions] Threshold = 0.162
+
+Model: Threshold 0.162
+Efficiency: 0.9669 (848 associated CPs out of 877 total CPs)
+FR: 0.0305 (826 associated Tracksters out of 852 total Tracksters)
+Num tracksters ratio: 0.9714937286202965
+
+[Pions] Threshold = 0.164
+
+Model: Threshold 0.164
+Efficiency: 0.9692 (850 associated CPs out of 877 total CPs)
+FR: 0.0318 (821 associated Tracksters out of 848 total Tracksters)
+Num tracksters ratio: 0.9669327251995439
+
+[Pions] Threshold = 0.166
+
+Model: Threshold 0.166
+Efficiency: 0.9715 (852 associated CPs out of 877 total CPs)
+FR: 0.0320 (817 associated Tracksters out of 844 total Tracksters)
+Num tracksters ratio: 0.9623717217787914
+
+[Pions] Threshold = 0.168
+
+Model: Threshold 0.168
+Efficiency: 0.9726 (853 associated CPs out of 877 total CPs)
+FR: 0.0321 (815 associated Tracksters out of 842 total Tracksters)
+Num tracksters ratio: 0.9600912200684151
+
+[Pions] Threshold = 0.170
+
+Model: Threshold 0.170
+Efficiency: 0.9726 (853 associated CPs out of 877 total CPs)
+FR: 0.0322 (812 associated Tracksters out of 839 total Tracksters)
+Num tracksters ratio: 0.9566704675028507
+
+[Pions] Threshold = 0.172
+
+Model: Threshold 0.172
+Efficiency: 0.9738 (854 associated CPs out of 877 total CPs)
+FR: 0.0323 (809 associated Tracksters out of 836 total Tracksters)
+Num tracksters ratio: 0.9532497149372862
+
+[Pions] Threshold = 0.174
+
+Model: Threshold 0.174
+Efficiency: 0.9738 (854 associated CPs out of 877 total CPs)
+FR: 0.0336 (805 associated Tracksters out of 833 total Tracksters)
+Num tracksters ratio: 0.9498289623717218
+
+[Pions] Threshold = 0.176
+
+Model: Threshold 0.176
+Efficiency: 0.9738 (854 associated CPs out of 877 total CPs)
+FR: 0.0336 (805 associated Tracksters out of 833 total Tracksters)
+Num tracksters ratio: 0.9498289623717218
+
+[Pions] Threshold = 0.178
+
+Model: Threshold 0.178
+Efficiency: 0.9749 (855 associated CPs out of 877 total CPs)
+FR: 0.0349 (803 associated Tracksters out of 832 total Tracksters)
+Num tracksters ratio: 0.9486887115165337
+
+[Pions] Threshold = 0.180
+
+Model: Threshold 0.180
+Efficiency: 0.9749 (855 associated CPs out of 877 total CPs)
+FR: 0.0361 (800 associated Tracksters out of 830 total Tracksters)
+Num tracksters ratio: 0.9464082098061574
+
+[Pions] Threshold = 0.182
+
+Model: Threshold 0.182
+Efficiency: 0.9761 (856 associated CPs out of 877 total CPs)
+FR: 0.0362 (799 associated Tracksters out of 829 total Tracksters)
+Num tracksters ratio: 0.9452679589509693
+
+[Pions] Threshold = 0.184
+
+Model: Threshold 0.184
+Efficiency: 0.9761 (856 associated CPs out of 877 total CPs)
+FR: 0.0362 (799 associated Tracksters out of 829 total Tracksters)
+Num tracksters ratio: 0.9452679589509693
+
+[Pions] Threshold = 0.186
+
+Model: Threshold 0.186
+Efficiency: 0.9761 (856 associated CPs out of 877 total CPs)
+FR: 0.0362 (798 associated Tracksters out of 828 total Tracksters)
+Num tracksters ratio: 0.9441277080957811
+
+[Pions] Threshold = 0.188
+
+Model: Threshold 0.188
+Efficiency: 0.9761 (856 associated CPs out of 877 total CPs)
+FR: 0.0362 (798 associated Tracksters out of 828 total Tracksters)
+Num tracksters ratio: 0.9441277080957811
+
+[Pions] Threshold = 0.190
+
+Model: Threshold 0.190
+Efficiency: 0.9761 (856 associated CPs out of 877 total CPs)
+FR: 0.0376 (793 associated Tracksters out of 824 total Tracksters)
+Num tracksters ratio: 0.9395667046750285
+
+[Pions] Threshold = 0.192
+
+Model: Threshold 0.192
+Efficiency: 0.9772 (857 associated CPs out of 877 total CPs)
+FR: 0.0389 (790 associated Tracksters out of 822 total Tracksters)
+Num tracksters ratio: 0.9372862029646523
+
+[Pions] Threshold = 0.194
+
+Model: Threshold 0.194
+Efficiency: 0.9783 (858 associated CPs out of 877 total CPs)
+FR: 0.0390 (789 associated Tracksters out of 821 total Tracksters)
+Num tracksters ratio: 0.936145952109464
+
+[Pions] Threshold = 0.196
+
+Model: Threshold 0.196
+Efficiency: 0.9795 (859 associated CPs out of 877 total CPs)
+FR: 0.0404 (784 associated Tracksters out of 817 total Tracksters)
+Num tracksters ratio: 0.9315849486887116
+
+[Pions] Threshold = 0.198
+
+Model: Threshold 0.198
+Efficiency: 0.9795 (859 associated CPs out of 877 total CPs)
+FR: 0.0404 (784 associated Tracksters out of 817 total Tracksters)
+Num tracksters ratio: 0.9315849486887116
+
+[Pions] Threshold = 0.200
+
+Model: Threshold 0.200
+Efficiency: 0.9795 (859 associated CPs out of 877 total CPs)
+FR: 0.0404 (783 associated Tracksters out of 816 total Tracksters)
+Num tracksters ratio: 0.9304446978335233
+
+[Pions] Threshold = 0.202
+
+Model: Threshold 0.202
+Efficiency: 0.9806 (860 associated CPs out of 877 total CPs)
+FR: 0.0405 (782 associated Tracksters out of 815 total Tracksters)
+Num tracksters ratio: 0.9293044469783353
+
+[Pions] Threshold = 0.204
+
+Model: Threshold 0.204
+Efficiency: 0.9806 (860 associated CPs out of 877 total CPs)
+FR: 0.0405 (781 associated Tracksters out of 814 total Tracksters)
+Num tracksters ratio: 0.928164196123147
+
+[Pions] Threshold = 0.206
+
+Model: Threshold 0.206
+Efficiency: 0.9806 (860 associated CPs out of 877 total CPs)
+FR: 0.0418 (779 associated Tracksters out of 813 total Tracksters)
+Num tracksters ratio: 0.927023945267959
+
+[Pions] Threshold = 0.208
+
+Model: Threshold 0.208
+Efficiency: 0.9806 (860 associated CPs out of 877 total CPs)
+FR: 0.0418 (779 associated Tracksters out of 813 total Tracksters)
+Num tracksters ratio: 0.927023945267959
+
+[Pions] Threshold = 0.210
+
+Model: Threshold 0.210
+Efficiency: 0.9806 (860 associated CPs out of 877 total CPs)
+FR: 0.0431 (777 associated Tracksters out of 812 total Tracksters)
+Num tracksters ratio: 0.9258836944127709
+
+[Pions] Threshold = 0.212
+
+Model: Threshold 0.212
+Efficiency: 0.9806 (860 associated CPs out of 877 total CPs)
+FR: 0.0431 (777 associated Tracksters out of 812 total Tracksters)
+Num tracksters ratio: 0.9258836944127709
+
+[Pions] Threshold = 0.214
+
+Model: Threshold 0.214
+Efficiency: 0.9806 (860 associated CPs out of 877 total CPs)
+FR: 0.0445 (773 associated Tracksters out of 809 total Tracksters)
+Num tracksters ratio: 0.9224629418472063
+
+[Pions] Threshold = 0.216
+
+Model: Threshold 0.216
+Efficiency: 0.9806 (860 associated CPs out of 877 total CPs)
+FR: 0.0446 (771 associated Tracksters out of 807 total Tracksters)
+Num tracksters ratio: 0.9201824401368301
+
+[Pions] Threshold = 0.218
+
+Model: Threshold 0.218
+Efficiency: 0.9806 (860 associated CPs out of 877 total CPs)
+FR: 0.0459 (769 associated Tracksters out of 806 total Tracksters)
+Num tracksters ratio: 0.9190421892816419
+
+[Pions] Threshold = 0.220
+
+Model: Threshold 0.220
+Efficiency: 0.9806 (860 associated CPs out of 877 total CPs)
+FR: 0.0447 (769 associated Tracksters out of 805 total Tracksters)
+Num tracksters ratio: 0.9179019384264538
+
+[Pions] Threshold = 0.222
+
+Model: Threshold 0.222
+Efficiency: 0.9806 (860 associated CPs out of 877 total CPs)
+FR: 0.0447 (769 associated Tracksters out of 805 total Tracksters)
+Num tracksters ratio: 0.9179019384264538
+
+[Pions] Threshold = 0.224
+
+Model: Threshold 0.224
+Efficiency: 0.9806 (860 associated CPs out of 877 total CPs)
+FR: 0.0460 (767 associated Tracksters out of 804 total Tracksters)
+Num tracksters ratio: 0.9167616875712656
+
+[Pions] Threshold = 0.226
+
+Model: Threshold 0.226
+Efficiency: 0.9806 (860 associated CPs out of 877 total CPs)
+FR: 0.0473 (765 associated Tracksters out of 803 total Tracksters)
+Num tracksters ratio: 0.9156214367160775
+
+[Pions] Threshold = 0.228
+
+Model: Threshold 0.228
+Efficiency: 0.9806 (860 associated CPs out of 877 total CPs)
+FR: 0.0474 (763 associated Tracksters out of 801 total Tracksters)
+Num tracksters ratio: 0.9133409350057012
+
+[Pions] Threshold = 0.230
+
+Model: Threshold 0.230
+Efficiency: 0.9806 (860 associated CPs out of 877 total CPs)
+FR: 0.0474 (763 associated Tracksters out of 801 total Tracksters)
+Num tracksters ratio: 0.9133409350057012
+
+[Pions] Threshold = 0.232
+
+Model: Threshold 0.232
+Efficiency: 0.9818 (861 associated CPs out of 877 total CPs)
+FR: 0.0475 (762 associated Tracksters out of 800 total Tracksters)
+Num tracksters ratio: 0.9122006841505131
+
+[Pions] Threshold = 0.234
+
+Model: Threshold 0.234
+Efficiency: 0.9818 (861 associated CPs out of 877 total CPs)
+FR: 0.0475 (762 associated Tracksters out of 800 total Tracksters)
+Num tracksters ratio: 0.9122006841505131
+
+[Pions] Threshold = 0.236
+
+Model: Threshold 0.236
+Efficiency: 0.9818 (861 associated CPs out of 877 total CPs)
+FR: 0.0476 (760 associated Tracksters out of 798 total Tracksters)
+Num tracksters ratio: 0.9099201824401368
+
+[Pions] Threshold = 0.238
+
+Model: Threshold 0.238
+Efficiency: 0.9818 (861 associated CPs out of 877 total CPs)
+FR: 0.0476 (760 associated Tracksters out of 798 total Tracksters)
+Num tracksters ratio: 0.9099201824401368
+
+[Pions] Threshold = 0.240
+
+Model: Threshold 0.240
+Efficiency: 0.9818 (861 associated CPs out of 877 total CPs)
+FR: 0.0477 (758 associated Tracksters out of 796 total Tracksters)
+Num tracksters ratio: 0.9076396807297605
+
+[Pions] Threshold = 0.242
+
+Model: Threshold 0.242
+Efficiency: 0.9818 (861 associated CPs out of 877 total CPs)
+FR: 0.0491 (755 associated Tracksters out of 794 total Tracksters)
+Num tracksters ratio: 0.9053591790193842
+
+[Pions] Threshold = 0.244
+
+Model: Threshold 0.244
+Efficiency: 0.9818 (861 associated CPs out of 877 total CPs)
+FR: 0.0492 (754 associated Tracksters out of 793 total Tracksters)
+Num tracksters ratio: 0.9042189281641961
+
+[Pions] Threshold = 0.246
+
+Model: Threshold 0.246
+Efficiency: 0.9829 (862 associated CPs out of 877 total CPs)
+FR: 0.0492 (753 associated Tracksters out of 792 total Tracksters)
+Num tracksters ratio: 0.9030786773090079
+
+[Pions] Threshold = 0.248
+
+Model: Threshold 0.248
+Efficiency: 0.9829 (862 associated CPs out of 877 total CPs)
+FR: 0.0493 (752 associated Tracksters out of 791 total Tracksters)
+Num tracksters ratio: 0.9019384264538198
+
+[Pions] Threshold = 0.250
+
+Model: Threshold 0.250
+Efficiency: 0.9829 (862 associated CPs out of 877 total CPs)
+FR: 0.0507 (749 associated Tracksters out of 789 total Tracksters)
+Num tracksters ratio: 0.8996579247434435
+
+[Pions] Threshold = 0.252
+
+Model: Threshold 0.252
+Efficiency: 0.9829 (862 associated CPs out of 877 total CPs)
+FR: 0.0507 (749 associated Tracksters out of 789 total Tracksters)
+Num tracksters ratio: 0.8996579247434435
+
+[Pions] Threshold = 0.254
+
+Model: Threshold 0.254
+Efficiency: 0.9829 (862 associated CPs out of 877 total CPs)
+FR: 0.0520 (747 associated Tracksters out of 788 total Tracksters)
+Num tracksters ratio: 0.8985176738882554
+
+[Pions] Threshold = 0.256
+
+Model: Threshold 0.256
+Efficiency: 0.9829 (862 associated CPs out of 877 total CPs)
+FR: 0.0521 (746 associated Tracksters out of 787 total Tracksters)
+Num tracksters ratio: 0.8973774230330672
+
+[Pions] Threshold = 0.258
+
+Model: Threshold 0.258
+Efficiency: 0.9829 (862 associated CPs out of 877 total CPs)
+FR: 0.0521 (746 associated Tracksters out of 787 total Tracksters)
+Num tracksters ratio: 0.8973774230330672
+
+[Pions] Threshold = 0.260
+
+Model: Threshold 0.260
+Efficiency: 0.9829 (862 associated CPs out of 877 total CPs)
+FR: 0.0536 (742 associated Tracksters out of 784 total Tracksters)
+Num tracksters ratio: 0.8939566704675028
+
+[Pions] Threshold = 0.262
+
+Model: Threshold 0.262
+Efficiency: 0.9829 (862 associated CPs out of 877 total CPs)
+FR: 0.0536 (741 associated Tracksters out of 783 total Tracksters)
+Num tracksters ratio: 0.8928164196123147
+
+[Pions] Threshold = 0.264
+
+Model: Threshold 0.264
+Efficiency: 0.9829 (862 associated CPs out of 877 total CPs)
+FR: 0.0524 (741 associated Tracksters out of 782 total Tracksters)
+Num tracksters ratio: 0.8916761687571265
+
+[Pions] Threshold = 0.266
+
+Model: Threshold 0.266
+Efficiency: 0.9829 (862 associated CPs out of 877 total CPs)
+FR: 0.0525 (740 associated Tracksters out of 781 total Tracksters)
+Num tracksters ratio: 0.8905359179019384
+
+[Pions] Threshold = 0.268
+
+Model: Threshold 0.268
+Efficiency: 0.9829 (862 associated CPs out of 877 total CPs)
+FR: 0.0525 (740 associated Tracksters out of 781 total Tracksters)
+Num tracksters ratio: 0.8905359179019384
+
+[Pions] Threshold = 0.270
+
+Model: Threshold 0.270
+Efficiency: 0.9840 (863 associated CPs out of 877 total CPs)
+FR: 0.0568 (731 associated Tracksters out of 775 total Tracksters)
+Num tracksters ratio: 0.8836944127708096
+
+[Pions] Threshold = 0.272
+
+Model: Threshold 0.272
+Efficiency: 0.9852 (864 associated CPs out of 877 total CPs)
+FR: 0.0568 (730 associated Tracksters out of 774 total Tracksters)
+Num tracksters ratio: 0.8825541619156214
+
+[Pions] Threshold = 0.274
+
+Model: Threshold 0.274
+Efficiency: 0.9852 (864 associated CPs out of 877 total CPs)
+FR: 0.0568 (730 associated Tracksters out of 774 total Tracksters)
+Num tracksters ratio: 0.8825541619156214
+
+[Pions] Threshold = 0.276
+
+Model: Threshold 0.276
+Efficiency: 0.9852 (864 associated CPs out of 877 total CPs)
+FR: 0.0583 (727 associated Tracksters out of 772 total Tracksters)
+Num tracksters ratio: 0.8802736602052451
+
+[Pions] Threshold = 0.278
+
+Model: Threshold 0.278
+Efficiency: 0.9852 (864 associated CPs out of 877 total CPs)
+FR: 0.0584 (726 associated Tracksters out of 771 total Tracksters)
+Num tracksters ratio: 0.879133409350057
+
+[Pions] Threshold = 0.280
+
+Model: Threshold 0.280
+Efficiency: 0.9852 (864 associated CPs out of 877 total CPs)
+FR: 0.0584 (726 associated Tracksters out of 771 total Tracksters)
+Num tracksters ratio: 0.879133409350057
+
+[Pions] Threshold = 0.282
+
+Model: Threshold 0.282
+Efficiency: 0.9852 (864 associated CPs out of 877 total CPs)
+FR: 0.0584 (726 associated Tracksters out of 771 total Tracksters)
+Num tracksters ratio: 0.879133409350057
+
+[Pions] Threshold = 0.284
+
+Model: Threshold 0.284
+Efficiency: 0.9852 (864 associated CPs out of 877 total CPs)
+FR: 0.0584 (725 associated Tracksters out of 770 total Tracksters)
+Num tracksters ratio: 0.8779931584948689
+
+[Pions] Threshold = 0.286
+
+Model: Threshold 0.286
+Efficiency: 0.9863 (865 associated CPs out of 877 total CPs)
+FR: 0.0585 (724 associated Tracksters out of 769 total Tracksters)
+Num tracksters ratio: 0.8768529076396807
+
+[Pions] Threshold = 0.288
+
+Model: Threshold 0.288
+Efficiency: 0.9863 (865 associated CPs out of 877 total CPs)
+FR: 0.0587 (722 associated Tracksters out of 767 total Tracksters)
+Num tracksters ratio: 0.8745724059293044
+
+[Pions] Threshold = 0.290
+
+Model: Threshold 0.290
+Efficiency: 0.9886 (867 associated CPs out of 877 total CPs)
+FR: 0.0588 (720 associated Tracksters out of 765 total Tracksters)
+Num tracksters ratio: 0.8722919042189282
+
+[Pions] Threshold = 0.292
+
+Model: Threshold 0.292
+Efficiency: 0.9886 (867 associated CPs out of 877 total CPs)
+FR: 0.0589 (719 associated Tracksters out of 764 total Tracksters)
+Num tracksters ratio: 0.87115165336374
+
+[Pions] Threshold = 0.294
+
+Model: Threshold 0.294
+Efficiency: 0.9886 (867 associated CPs out of 877 total CPs)
+FR: 0.0590 (718 associated Tracksters out of 763 total Tracksters)
+Num tracksters ratio: 0.8700114025085519
+
+[Pions] Threshold = 0.296
+
+Model: Threshold 0.296
+Efficiency: 0.9886 (867 associated CPs out of 877 total CPs)
+FR: 0.0591 (717 associated Tracksters out of 762 total Tracksters)
+Num tracksters ratio: 0.8688711516533637
+
+[Pions] Threshold = 0.298
+
+Model: Threshold 0.298
+Efficiency: 0.9886 (867 associated CPs out of 877 total CPs)
+FR: 0.0604 (715 associated Tracksters out of 761 total Tracksters)
+Num tracksters ratio: 0.8677309007981756
+
+[Pions] Threshold = 0.300
+
+Model: Threshold 0.300
+Efficiency: 0.9886 (867 associated CPs out of 877 total CPs)
+FR: 0.0604 (715 associated Tracksters out of 761 total Tracksters)
+Num tracksters ratio: 0.8677309007981756
+
+[Pions] Threshold = 0.310
+
+Model: Threshold 0.310
+Efficiency: 0.9886 (867 associated CPs out of 877 total CPs)
+FR: 0.0632 (711 associated Tracksters out of 759 total Tracksters)
+Num tracksters ratio: 0.8654503990877993
+
+[Pions] Threshold = 0.320
+
+Model: Threshold 0.320
+Efficiency: 0.9886 (867 associated CPs out of 877 total CPs)
+FR: 0.0675 (704 associated Tracksters out of 755 total Tracksters)
+Num tracksters ratio: 0.8608893956670467
+
+[Pions] Threshold = 0.330
+
+Model: Threshold 0.330
+Efficiency: 0.9897 (868 associated CPs out of 877 total CPs)
+FR: 0.0692 (699 associated Tracksters out of 751 total Tracksters)
+Num tracksters ratio: 0.8563283922462942
+
+[Pions] Threshold = 0.340
+
+Model: Threshold 0.340
+Efficiency: 0.9920 (870 associated CPs out of 877 total CPs)
+FR: 0.0695 (696 associated Tracksters out of 748 total Tracksters)
+Num tracksters ratio: 0.8529076396807298
+
+[Pions] Threshold = 0.350
+
+Model: Threshold 0.350
+Efficiency: 0.9920 (870 associated CPs out of 877 total CPs)
+FR: 0.0697 (694 associated Tracksters out of 746 total Tracksters)
+Num tracksters ratio: 0.8506271379703535
+
+[Pions] Threshold = 0.360
+
+Model: Threshold 0.360
+Efficiency: 0.9920 (870 associated CPs out of 877 total CPs)
+FR: 0.0714 (689 associated Tracksters out of 742 total Tracksters)
+Num tracksters ratio: 0.8460661345496009
+
+[Pions] Threshold = 0.370
+
+Model: Threshold 0.370
+Efficiency: 0.9920 (870 associated CPs out of 877 total CPs)
+FR: 0.0745 (683 associated Tracksters out of 738 total Tracksters)
+Num tracksters ratio: 0.8415051311288484
+
+[Pions] Threshold = 0.380
+
+Model: Threshold 0.380
+Efficiency: 0.9932 (871 associated CPs out of 877 total CPs)
+FR: 0.0761 (680 associated Tracksters out of 736 total Tracksters)
+Num tracksters ratio: 0.8392246294184721
+
+[Pions] Threshold = 0.390
+
+Model: Threshold 0.390
+Efficiency: 0.9932 (871 associated CPs out of 877 total CPs)
+FR: 0.0762 (679 associated Tracksters out of 735 total Tracksters)
+Num tracksters ratio: 0.8380843785632839
+
+[Pions] Threshold = 0.400
+
+Model: Threshold 0.400
+Efficiency: 0.9932 (871 associated CPs out of 877 total CPs)
+FR: 0.0777 (677 associated Tracksters out of 734 total Tracksters)
+Num tracksters ratio: 0.8369441277080958
+
+[Pions] Threshold = 0.410
+
+Model: Threshold 0.410
+Efficiency: 0.9943 (872 associated CPs out of 877 total CPs)
+FR: 0.0796 (671 associated Tracksters out of 729 total Tracksters)
+Num tracksters ratio: 0.8312428734321551
+
+[Pions] Threshold = 0.420
+
+Model: Threshold 0.420
+Efficiency: 0.9943 (872 associated CPs out of 877 total CPs)
+FR: 0.0873 (659 associated Tracksters out of 722 total Tracksters)
+Num tracksters ratio: 0.8232611174458381
+
+[Pions] Threshold = 0.430
+
+Model: Threshold 0.430
+Efficiency: 0.9943 (872 associated CPs out of 877 total CPs)
+FR: 0.0923 (649 associated Tracksters out of 715 total Tracksters)
+Num tracksters ratio: 0.8152793614595211
+
+[Pions] Threshold = 0.440
+
+Model: Threshold 0.440
+Efficiency: 0.9943 (872 associated CPs out of 877 total CPs)
+FR: 0.0956 (643 associated Tracksters out of 711 total Tracksters)
+Num tracksters ratio: 0.8107183580387686
+
+[Pions] Threshold = 0.450
+
+Model: Threshold 0.450
+Efficiency: 0.9954 (873 associated CPs out of 877 total CPs)
+FR: 0.1034 (633 associated Tracksters out of 706 total Tracksters)
+Num tracksters ratio: 0.8050171037628279
+
+[Pions] Threshold = 0.460
+
+Model: Threshold 0.460
+Efficiency: 0.9954 (873 associated CPs out of 877 total CPs)
+FR: 0.1081 (627 associated Tracksters out of 703 total Tracksters)
+Num tracksters ratio: 0.8015963511972634
+
+[Pions] Threshold = 0.470
+
+Model: Threshold 0.470
+Efficiency: 0.9954 (873 associated CPs out of 877 total CPs)
+FR: 0.1098 (624 associated Tracksters out of 701 total Tracksters)
+Num tracksters ratio: 0.7993158494868872
+
+[Pions] Threshold = 0.480
+
+Model: Threshold 0.480
+Efficiency: 0.9954 (873 associated CPs out of 877 total CPs)
+FR: 0.1132 (619 associated Tracksters out of 698 total Tracksters)
+Num tracksters ratio: 0.7958950969213227
+
+[Pions] Threshold = 0.490
+
+Model: Threshold 0.490
+Efficiency: 0.9954 (873 associated CPs out of 877 total CPs)
+FR: 0.1183 (611 associated Tracksters out of 693 total Tracksters)
+Num tracksters ratio: 0.790193842645382
+
+[Pions] Threshold = 0.500
+
+Model: Threshold 0.500
+Efficiency: 0.9954 (873 associated CPs out of 877 total CPs)
+FR: 0.1190 (607 associated Tracksters out of 689 total Tracksters)
+Num tracksters ratio: 0.7856328392246295
+
+[Pions] Threshold = 0.510
+
+Model: Threshold 0.510
+Efficiency: 0.9954 (873 associated CPs out of 877 total CPs)
+FR: 0.1210 (603 associated Tracksters out of 686 total Tracksters)
+Num tracksters ratio: 0.7822120866590649
+
+[Pions] Threshold = 0.520
+
+Model: Threshold 0.520
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.1230 (599 associated Tracksters out of 683 total Tracksters)
+Num tracksters ratio: 0.7787913340935005
+
+[Pions] Threshold = 0.530
+
+Model: Threshold 0.530
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.1254 (593 associated Tracksters out of 678 total Tracksters)
+Num tracksters ratio: 0.7730900798175598
+
+[Pions] Threshold = 0.540
+
+Model: Threshold 0.540
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.1278 (587 associated Tracksters out of 673 total Tracksters)
+Num tracksters ratio: 0.7673888255416191
+
+[Pions] Threshold = 0.550
+
+Model: Threshold 0.550
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.1304 (580 associated Tracksters out of 667 total Tracksters)
+Num tracksters ratio: 0.7605473204104903
+
+[Pions] Threshold = 0.560
+
+Model: Threshold 0.560
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.1331 (573 associated Tracksters out of 661 total Tracksters)
+Num tracksters ratio: 0.7537058152793614
+
+[Pions] Threshold = 0.570
+
+Model: Threshold 0.570
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.1359 (566 associated Tracksters out of 655 total Tracksters)
+Num tracksters ratio: 0.7468643101482326
+
+[Pions] Threshold = 0.580
+
+Model: Threshold 0.580
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.1376 (564 associated Tracksters out of 654 total Tracksters)
+Num tracksters ratio: 0.7457240592930444
+
+[Pions] Threshold = 0.590
+
+Model: Threshold 0.590
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.1433 (556 associated Tracksters out of 649 total Tracksters)
+Num tracksters ratio: 0.7400228050171037
+
+[Pions] Threshold = 0.600
+
+Model: Threshold 0.600
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.1462 (549 associated Tracksters out of 643 total Tracksters)
+Num tracksters ratio: 0.7331812998859749
+
+[Pions] Threshold = 0.610
+
+Model: Threshold 0.610
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.1503 (537 associated Tracksters out of 632 total Tracksters)
+Num tracksters ratio: 0.7206385404789054
+
+[Pions] Threshold = 0.620
+
+Model: Threshold 0.620
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.1597 (521 associated Tracksters out of 620 total Tracksters)
+Num tracksters ratio: 0.7069555302166477
+
+[Pions] Threshold = 0.630
+
+Model: Threshold 0.630
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.1631 (513 associated Tracksters out of 613 total Tracksters)
+Num tracksters ratio: 0.6989737742303307
+
+[Pions] Threshold = 0.640
+
+Model: Threshold 0.640
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.1645 (508 associated Tracksters out of 608 total Tracksters)
+Num tracksters ratio: 0.69327251995439
+
+[Pions] Threshold = 0.650
+
+Model: Threshold 0.650
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.1697 (499 associated Tracksters out of 601 total Tracksters)
+Num tracksters ratio: 0.685290763968073
+
+[Pions] Threshold = 0.660
+
+Model: Threshold 0.660
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.1717 (492 associated Tracksters out of 594 total Tracksters)
+Num tracksters ratio: 0.677309007981756
+
+[Pions] Threshold = 0.670
+
+Model: Threshold 0.670
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.1818 (477 associated Tracksters out of 583 total Tracksters)
+Num tracksters ratio: 0.6647662485746865
+
+[Pions] Threshold = 0.680
+
+Model: Threshold 0.680
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.1858 (469 associated Tracksters out of 576 total Tracksters)
+Num tracksters ratio: 0.6567844925883695
+
+[Pions] Threshold = 0.690
+
+Model: Threshold 0.690
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.1982 (453 associated Tracksters out of 565 total Tracksters)
+Num tracksters ratio: 0.6442417331812998
+
+[Pions] Threshold = 0.700
+
+Model: Threshold 0.700
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.2051 (438 associated Tracksters out of 551 total Tracksters)
+Num tracksters ratio: 0.6282782212086659
+
+[Pions] Threshold = 0.710
+
+Model: Threshold 0.710
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.2130 (425 associated Tracksters out of 540 total Tracksters)
+Num tracksters ratio: 0.6157354618015963
+
+[Pions] Threshold = 0.720
+
+Model: Threshold 0.720
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.2235 (410 associated Tracksters out of 528 total Tracksters)
+Num tracksters ratio: 0.6020524515393386
+
+[Pions] Threshold = 0.730
+
+Model: Threshold 0.730
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.2314 (402 associated Tracksters out of 523 total Tracksters)
+Num tracksters ratio: 0.5963511972633979
+
+[Pions] Threshold = 0.740
+
+Model: Threshold 0.740
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.2461 (386 associated Tracksters out of 512 total Tracksters)
+Num tracksters ratio: 0.5838084378563284
+
+[Pions] Threshold = 0.750
+
+Model: Threshold 0.750
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.2600 (370 associated Tracksters out of 500 total Tracksters)
+Num tracksters ratio: 0.5701254275940707
+
+[Pions] Threshold = 0.760
+
+Model: Threshold 0.760
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.2707 (353 associated Tracksters out of 484 total Tracksters)
+Num tracksters ratio: 0.5518814139110604
+
+[Pions] Threshold = 0.770
+
+Model: Threshold 0.770
+Efficiency: 0.9966 (874 associated CPs out of 877 total CPs)
+FR: 0.2762 (346 associated Tracksters out of 478 total Tracksters)
+Num tracksters ratio: 0.5450399087799316
+
+[Pions] Threshold = 0.780
+
+Model: Threshold 0.780
+Efficiency: 0.9977 (875 associated CPs out of 877 total CPs)
+FR: 0.2845 (332 associated Tracksters out of 464 total Tracksters)
+Num tracksters ratio: 0.5290763968072976
+
+[Pions] Threshold = 0.790
+
+Model: Threshold 0.790
+Efficiency: 0.9977 (875 associated CPs out of 877 total CPs)
+FR: 0.3065 (310 associated Tracksters out of 447 total Tracksters)
+Num tracksters ratio: 0.5096921322690992
+
+[Pions] Threshold = 0.800
+
+Model: Threshold 0.800
+Efficiency: 0.9977 (875 associated CPs out of 877 total CPs)
+FR: 0.3148 (296 associated Tracksters out of 432 total Tracksters)
+Num tracksters ratio: 0.4925883694412771
+
+[Pions] Threshold = 0.810
+
+Model: Threshold 0.810
+Efficiency: 0.9977 (875 associated CPs out of 877 total CPs)
+FR: 0.3455 (269 associated Tracksters out of 411 total Tracksters)
+Num tracksters ratio: 0.46864310148232613
+
+[Pions] Threshold = 0.820
+
+Model: Threshold 0.820
+Efficiency: 0.9977 (875 associated CPs out of 877 total CPs)
+FR: 0.3678 (251 associated Tracksters out of 397 total Tracksters)
+Num tracksters ratio: 0.4526795895096921
+
+[Pions] Threshold = 0.830
+
+Model: Threshold 0.830
+Efficiency: 0.9977 (875 associated CPs out of 877 total CPs)
+FR: 0.3828 (237 associated Tracksters out of 384 total Tracksters)
+Num tracksters ratio: 0.4378563283922463
+
+[Pions] Threshold = 0.840
+
+Model: Threshold 0.840
+Efficiency: 0.9977 (875 associated CPs out of 877 total CPs)
+FR: 0.4021 (223 associated Tracksters out of 373 total Tracksters)
+Num tracksters ratio: 0.42531356898517675
+
+[Pions] Threshold = 0.850
+
+Model: Threshold 0.850
+Efficiency: 0.9977 (875 associated CPs out of 877 total CPs)
+FR: 0.4153 (214 associated Tracksters out of 366 total Tracksters)
+Num tracksters ratio: 0.41733181299885974
+
+[Pions] Threshold = 0.860
+
+Model: Threshold 0.860
+Efficiency: 0.9977 (875 associated CPs out of 877 total CPs)
+FR: 0.4394 (199 associated Tracksters out of 355 total Tracksters)
+Num tracksters ratio: 0.4047890535917902
+
+[Pions] Threshold = 0.870
+
+Model: Threshold 0.870
+Efficiency: 0.9977 (875 associated CPs out of 877 total CPs)
+FR: 0.4511 (191 associated Tracksters out of 348 total Tracksters)
+Num tracksters ratio: 0.39680729760547323
+
+[Pions] Threshold = 0.880
+
+Model: Threshold 0.880
+Efficiency: 0.9977 (875 associated CPs out of 877 total CPs)
+FR: 0.4636 (184 associated Tracksters out of 343 total Tracksters)
+Num tracksters ratio: 0.39110604332953247
+
+[Pions] Threshold = 0.890
+
+Model: Threshold 0.890
+Efficiency: 0.9977 (875 associated CPs out of 877 total CPs)
+FR: 0.4704 (179 associated Tracksters out of 338 total Tracksters)
+Num tracksters ratio: 0.38540478905359177
+
+[Pions] Threshold = 0.900
+
+Model: Threshold 0.900
+Efficiency: 0.9977 (875 associated CPs out of 877 total CPs)
+FR: 0.4759 (174 associated Tracksters out of 332 total Tracksters)
+Num tracksters ratio: 0.37856328392246297
+
+[Pions] Threshold = 0.910
+
+Model: Threshold 0.910
+Efficiency: 0.9977 (875 associated CPs out of 877 total CPs)
+FR: 0.4787 (171 associated Tracksters out of 328 total Tracksters)
+Num tracksters ratio: 0.37400228050171036
+
+[Pions] Threshold = 0.920
+
+Model: Threshold 0.920
+Efficiency: 0.9977 (875 associated CPs out of 877 total CPs)
+FR: 0.4877 (167 associated Tracksters out of 326 total Tracksters)
+Num tracksters ratio: 0.3717217787913341
+
+[Pions] Threshold = 0.930
+
+Model: Threshold 0.930
+Efficiency: 0.9977 (875 associated CPs out of 877 total CPs)
+FR: 0.4923 (164 associated Tracksters out of 323 total Tracksters)
+Num tracksters ratio: 0.36830102622576966
+
+[Pions] Threshold = 0.940
+
+Model: Threshold 0.940
+Efficiency: 0.9977 (875 associated CPs out of 877 total CPs)
+FR: 0.4969 (161 associated Tracksters out of 320 total Tracksters)
+Num tracksters ratio: 0.36488027366020526
+
+[Pions] Threshold = 0.950
+
+Model: Threshold 0.950
+Efficiency: 0.9977 (875 associated CPs out of 877 total CPs)
+FR: 0.5079 (156 associated Tracksters out of 317 total Tracksters)
+Num tracksters ratio: 0.3614595210946408
+
+[Pions] Threshold = 0.960
+
+Model: Threshold 0.960
+Efficiency: 0.9977 (875 associated CPs out of 877 total CPs)
+FR: 0.5127 (153 associated Tracksters out of 314 total Tracksters)
+Num tracksters ratio: 0.3580387685290764
+
+[Pions] Threshold = 0.970
+
+Model: Threshold 0.970
+Efficiency: 0.9977 (875 associated CPs out of 877 total CPs)
+FR: 0.5160 (151 associated Tracksters out of 312 total Tracksters)
+Num tracksters ratio: 0.3557582668187001
+
+[Pions] Threshold = 0.980
+
+Model: Threshold 0.980
+Efficiency: 0.9989 (876 associated CPs out of 877 total CPs)
+FR: 0.5226 (148 associated Tracksters out of 310 total Tracksters)
+Num tracksters ratio: 0.35347776510832385
+
+[Pions] Threshold = 0.990
+
+Model: Threshold 0.990
+Efficiency: 0.9989 (876 associated CPs out of 877 total CPs)
+FR: 0.5243 (147 associated Tracksters out of 309 total Tracksters)
+Num tracksters ratio: 0.3523375142531357
+
+[Pions] Threshold = 1.000
+
+Model: Threshold 1.000
+Efficiency: 0.9989 (876 associated CPs out of 877 total CPs)
+FR: 0.5309 (144 associated Tracksters out of 307 total Tracksters)
+Num tracksters ratio: 0.3500570125427594

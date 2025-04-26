@@ -1,0 +1,46 @@
+000 (1536523.002.000) 2025-04-13 14:33:21 Job submitted from host: <146.179.108.134:9618?addrs=146.179.108.134-9618+[2a0c-5bc0-88-111-216-3eff-fe7f-207]-9618&alias=htcmaster00.hep.ph.ic.ac.uk&noUDP&sock=schedd_966_2c93>
+...
+001 (1536523.002.000) 2025-04-13 15:46:16 Job executing on host: <146.179.108.52:9618?addrs=146.179.108.52-9618+[2a0c-5bc0-88-111-92e2-baff-fe9b-7fc0]-9618&alias=lxa00.hep.ph.ic.ac.uk&noUDP&sock=startd_1766_e857>
+	SlotName: slot1_4@lxa00.hep.ph.ic.ac.uk
+	CondorScratchDir = "/srv/localstage/condor/dir_1774172"
+	Cpus = 2
+	Disk = 4097024
+	GPUs = 0
+	Memory = 8000
+...
+006 (1536523.002.000) 2025-04-13 15:46:30 Image size of job updated: 426912
+	417  -  MemoryUsage of job (MB)
+	426912  -  ResidentSetSize of job (KB)
+...
+006 (1536523.002.000) 2025-04-13 15:48:30 Image size of job updated: 594840
+	581  -  MemoryUsage of job (MB)
+	594840  -  ResidentSetSize of job (KB)
+...
+006 (1536523.002.000) 2025-04-13 15:50:30 Image size of job updated: 702024
+	685  -  MemoryUsage of job (MB)
+	701196  -  ResidentSetSize of job (KB)
+...
+006 (1536523.002.000) 2025-04-13 15:51:42 Image size of job updated: 707004
+	685  -  MemoryUsage of job (MB)
+	701196  -  ResidentSetSize of job (KB)
+...
+005 (1536523.002.000) 2025-04-13 15:51:42 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:06:29, Sys 0 00:00:10  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:06:29, Sys 0 00:00:10  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.99        2         2 
+	   Disk (KB)            :    15     4096000   4097024 
+	   GPUs                 :                           0 
+	   Memory (MB)          :   685        8000      8000 
+	   TimeExecute (s)      :   326                       
+	   TimeSlotBusy (s)     :   326                       
+
+	Job terminated of its own accord at 2025-04-13T14:51:42Z with exit-code 0.
+...

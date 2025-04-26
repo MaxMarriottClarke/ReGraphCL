@@ -1,0 +1,313 @@
+import numpy as np
+import subprocess
+import tqdm
+from tqdm import tqdm
+import pandas as pd
+
+import os
+import os.path as osp
+
+import glob
+
+import h5py
+import uproot
+
+import torch
+from torch import nn
+
+
+from torch_geometric.data import Data
+from torch_geometric.data import Dataset
+from torch_geometric.data import DataLoader
+
+import awkward as ak
+import random
+
+# Function to find the highest numbered branch matching base_name in an uproot file
+def find_highest_branch(path, base_name):
+    with uproot.open(path) as f:
+        branches = [k for k in f.keys() if k.startswith(base_name + ';')]
+        sorted_branches = sorted(branches, key=lambda x: int(x.split(';')[-1]))
+        return sorted_branches[-1] if sorted_branches else None
+
+# Function to remove duplicates: for each event, only keep the entry with the highest B value for each unique element in A.
+def remove_duplicates(A, B):    
+    all_masks = []
+    for event_idx, event in enumerate(A):
+        flat_A = np.array(ak.flatten(A[event_idx]))
+        flat_B = np.array(ak.flatten(B[event_idx]))
+        mask = np.zeros_like(flat_A, dtype=bool)
+        for elem in np.unique(flat_A):
+            indices = np.where(flat_A == elem)[0]
+            if len(indices) > 1:
+                max_index = indices[np.argmax(flat_B[indices])]
+                mask[max_index] = True
+            else:
+                mask[indices[0]] = True
+        unflattened_mask = ak.unflatten(mask, ak.num(A[event_idx]))
+        all_masks.append(unflattened_mask)
+    return ak.Array(all_masks)
+
+class CCV4(Dataset):
+    r'''
+    Dataset for layer clusters.
+    For each event it builds:
+      - x: node features, shape (N, D)
+      - groups: top-3 contributing group IDs per node (N, 3)
+      - fractions: corresponding energy fractions (N, 3)
+      - x_pe: positive edge pairs, shape (N, 2)
+      - x_ne: negative edge pairs, shape (N, 2)
+    '''
+    url = '/dummy/'
+
+    def __init__(self, root, transform=None, max_events=1e8, inp='train'):
+        super(CCV4, self).__init__(root, transform)
+        self.step_size = 500
+        self.inp = inp
+        self.max_events = max_events
+
+        # These will hold the precomputed arrays (one per event)
+
+        
+        self.fill_data(max_events)
+
+
+    def fill_data(self, max_events):
+        counter = 0
+        print("### Loading data")
+        for fi, path in enumerate(sorted(glob.glob(osp.join(self.raw_dir, '*.root')))):
+            if self.inp in ['train', 'val']:
+                cluster_path = find_highest_branch(path, 'clusters')
+                sim_path = find_highest_branch(path, 'simtrackstersCP')
+                track_path = find_highest_branch(path, 'tracksters')
+            else:
+                cluster_path = find_highest_branch(path, 'clusters')
+                sim_path = find_highest_branch(path, 'simtrackstersCP')
+                track_path = find_highest_branch(path, 'tracksters')
+            
+            crosstree = uproot.open(path)[cluster_path]
+            crosscounter = 0
+            
+            # Create an iterator for the tracksters branch to load its 'vertices_indexes'
+            tracksters_iter = uproot.iterate(
+                f"{path}:{track_path}",
+                ["vertices_indexes"],
+                step_size=self.step_size
+            )
+            
+            for array in uproot.iterate(f"{path}:{sim_path}", 
+                                         ["vertices_x", "vertices_y", "vertices_z", 
+                                          "vertices_energy", "vertices_multiplicity", "vertices_time", 
+                                          "vertices_indexes", "barycenter_x", "barycenter_y", "barycenter_z"],
+                                         step_size=self.step_size):
+                # Get the tracksters branch data for this iteration
+                tmp_tracksters_data = next(tracksters_iter)
+                tmp_tracksters_vertices_indexes = tmp_tracksters_data["vertices_indexes"]
+                
+                # Load the simtrackstersCP branch arrays
+                tmp_stsCP_vertices_x = array['vertices_x']
+                tmp_stsCP_vertices_y = array['vertices_y']
+                tmp_stsCP_vertices_z = array['vertices_z']
+                tmp_stsCP_vertices_energy = array['vertices_energy']
+                tmp_stsCP_vertices_time = array['vertices_time']
+                tmp_stsCP_vertices_indexes = array['vertices_indexes']
+                tmp_stsCP_vertices_multiplicity = array['vertices_multiplicity']
+                tmp_stsCP_barycenter_x = array['barycenter_x']
+                tmp_stsCP_barycenter_y = array['barycenter_y']
+                tmp_stsCP_barycenter_z = array['barycenter_z']
+                
+                self.step_size = min(self.step_size, len(tmp_stsCP_vertices_x))
+
+                tmp_all_vertices_layer_id = crosstree['cluster_layer_id'].array(
+                    entry_start=crosscounter*self.step_size,
+                    entry_stop=(crosscounter+1)*self.step_size)
+                tmp_all_vertices_noh = crosstree['cluster_number_of_hits'].array(
+                    entry_start=crosscounter*self.step_size,
+                    entry_stop=(crosscounter+1)*self.step_size)
+                tmp_all_vertices_eta = crosstree['position_eta'].array(
+                    entry_start=crosscounter*self.step_size,
+                    entry_stop=(crosscounter+1)*self.step_size)
+                tmp_all_vertices_phi = crosstree['position_phi'].array(
+                    entry_start=crosscounter*self.step_size,
+                    entry_stop=(crosscounter+1)*self.step_size)
+                crosscounter += 1
+
+                layer_id_list = []
+                noh_list = []
+                eta_list = []
+                phi_list = []
+                for evt_row in range(len(tmp_all_vertices_noh)):
+                    layer_id_list_one_event = []
+                    noh_list_one_event = []
+                    eta_list_one_event = []
+                    phi_list_one_event = []
+                    for particle in range(len(tmp_stsCP_vertices_indexes[evt_row])):
+                        tmp_stsCP_vertices_layer_id_one_particle = tmp_all_vertices_layer_id[evt_row][tmp_stsCP_vertices_indexes[evt_row][particle]]
+                        tmp_stsCP_vertices_noh_one_particle = tmp_all_vertices_noh[evt_row][tmp_stsCP_vertices_indexes[evt_row][particle]]
+                        tmp_stsCP_vertices_eta_one_particle = tmp_all_vertices_eta[evt_row][tmp_stsCP_vertices_indexes[evt_row][particle]]
+                        tmp_stsCP_vertices_phi_one_particle = tmp_all_vertices_phi[evt_row][tmp_stsCP_vertices_indexes[evt_row][particle]]
+                        layer_id_list_one_event.append(tmp_stsCP_vertices_layer_id_one_particle)
+                        noh_list_one_event.append(tmp_stsCP_vertices_noh_one_particle)
+                        eta_list_one_event.append(tmp_stsCP_vertices_eta_one_particle)
+                        phi_list_one_event.append(tmp_stsCP_vertices_phi_one_particle)
+                    layer_id_list.append(layer_id_list_one_event)
+                    noh_list.append(noh_list_one_event)
+                    eta_list.append(eta_list_one_event)
+                    phi_list.append(phi_list_one_event)
+                tmp_stsCP_vertices_layer_id = ak.Array(layer_id_list)
+                tmp_stsCP_vertices_noh = ak.Array(noh_list)
+                tmp_stsCP_vertices_eta = ak.Array(eta_list)
+                tmp_stsCP_vertices_phi = ak.Array(phi_list)
+                
+                # NEW FILTERING: Remove simtracksters entries whose index is not in any tracksters sub-array.
+                mask_list = []
+                for sim_evt, track_evt in zip(tmp_stsCP_vertices_indexes, tmp_tracksters_vertices_indexes):
+                    track_flat = ak.flatten(track_evt)
+                    track_set = set(ak.to_list(track_flat))
+                    sim_evt_list = ak.to_list(sim_evt)
+                    mask_evt = [[elem in track_set for elem in subarr] for subarr in sim_evt_list]
+                    mask_list.append(mask_evt)
+                mask_track = ak.Array(mask_list)
+
+                tmp_stsCP_vertices_x = tmp_stsCP_vertices_x[mask_track]
+                tmp_stsCP_vertices_y = tmp_stsCP_vertices_y[mask_track]
+                tmp_stsCP_vertices_z = tmp_stsCP_vertices_z[mask_track]
+                tmp_stsCP_vertices_energy = tmp_stsCP_vertices_energy[mask_track]
+                tmp_stsCP_vertices_time = tmp_stsCP_vertices_time[mask_track]
+                tmp_stsCP_vertices_layer_id = tmp_stsCP_vertices_layer_id[mask_track]
+                tmp_stsCP_vertices_noh = tmp_stsCP_vertices_noh[mask_track]
+                tmp_stsCP_vertices_eta = tmp_stsCP_vertices_eta[mask_track]
+                tmp_stsCP_vertices_phi = tmp_stsCP_vertices_phi[mask_track]
+                tmp_stsCP_vertices_indexes = tmp_stsCP_vertices_indexes[mask_track]
+                tmp_stsCP_vertices_multiplicity = tmp_stsCP_vertices_multiplicity[mask_track]
+
+                # Further filtering: remove events with fewer than 2 vertices.
+                skim_mask = [len(e) >= 0 for e in tmp_stsCP_vertices_x]
+                tmp_stsCP_vertices_x = tmp_stsCP_vertices_x[skim_mask]
+                tmp_stsCP_vertices_y = tmp_stsCP_vertices_y[skim_mask]
+                tmp_stsCP_vertices_z = tmp_stsCP_vertices_z[skim_mask]
+                tmp_stsCP_vertices_energy = tmp_stsCP_vertices_energy[skim_mask]
+                tmp_stsCP_vertices_time = tmp_stsCP_vertices_time[skim_mask]
+                tmp_stsCP_vertices_layer_id = tmp_stsCP_vertices_layer_id[skim_mask]
+                tmp_stsCP_vertices_noh = tmp_stsCP_vertices_noh[skim_mask]
+                tmp_stsCP_vertices_eta = tmp_stsCP_vertices_eta[skim_mask]
+                tmp_stsCP_vertices_phi = tmp_stsCP_vertices_phi[skim_mask]
+                tmp_stsCP_vertices_indexes = tmp_stsCP_vertices_indexes[skim_mask]
+                tmp_stsCP_vertices_multiplicity = tmp_stsCP_vertices_multiplicity[skim_mask]
+
+                if counter == 0:
+                    self.stsCP_vertices_indexes_unfilt = tmp_stsCP_vertices_indexes
+                    self.stsCP_vertices_multiplicity_unfilt = tmp_stsCP_vertices_multiplicity
+                else:
+                    self.stsCP_vertices_indexes_unfilt = ak.concatenate(
+                        (self.stsCP_vertices_indexes_unfilt, tmp_stsCP_vertices_indexes))
+                    self.stsCP_vertices_multiplicity_unfilt = ak.concatenate(
+                        (self.stsCP_vertices_multiplicity_unfilt, tmp_stsCP_vertices_multiplicity))
+                
+                energyPercent = 1 / tmp_stsCP_vertices_multiplicity
+                skim_mask_energyPercent = remove_duplicates(tmp_stsCP_vertices_indexes, energyPercent)
+                tmp_stsCP_vertices_x = tmp_stsCP_vertices_x[skim_mask_energyPercent]
+                tmp_stsCP_vertices_y = tmp_stsCP_vertices_y[skim_mask_energyPercent]
+                tmp_stsCP_vertices_z = tmp_stsCP_vertices_z[skim_mask_energyPercent]
+                tmp_stsCP_vertices_energy = tmp_stsCP_vertices_energy[skim_mask_energyPercent]
+                tmp_stsCP_vertices_time = tmp_stsCP_vertices_time[skim_mask_energyPercent]
+                tmp_stsCP_vertices_layer_id = tmp_stsCP_vertices_layer_id[skim_mask_energyPercent]
+                tmp_stsCP_vertices_noh = tmp_stsCP_vertices_noh[skim_mask_energyPercent]
+                tmp_stsCP_vertices_eta = tmp_stsCP_vertices_eta[skim_mask_energyPercent]
+                tmp_stsCP_vertices_phi = tmp_stsCP_vertices_phi[skim_mask_energyPercent]
+                tmp_stsCP_vertices_indexes_filt = tmp_stsCP_vertices_indexes[skim_mask_energyPercent]
+                tmp_stsCP_vertices_multiplicity = tmp_stsCP_vertices_multiplicity[skim_mask_energyPercent]
+                
+                if counter == 0:
+                    self.stsCP_vertices_x = tmp_stsCP_vertices_x
+                    self.stsCP_vertices_y = tmp_stsCP_vertices_y
+                    self.stsCP_vertices_z = tmp_stsCP_vertices_z
+                    self.stsCP_vertices_energy = tmp_stsCP_vertices_energy
+                    self.stsCP_vertices_time = tmp_stsCP_vertices_time
+                    self.stsCP_vertices_layer_id = tmp_stsCP_vertices_layer_id
+                    self.stsCP_vertices_noh = tmp_stsCP_vertices_noh
+                    self.stsCP_vertices_eta = tmp_stsCP_vertices_eta
+                    self.stsCP_vertices_phi = tmp_stsCP_vertices_phi
+                    self.stsCP_vertices_indexes = tmp_stsCP_vertices_indexes
+                    self.stsCP_barycenter_x = tmp_stsCP_barycenter_x
+                    self.stsCP_barycenter_y = tmp_stsCP_barycenter_y
+                    self.stsCP_barycenter_z = tmp_stsCP_barycenter_z
+                    self.stsCP_vertices_multiplicity = tmp_stsCP_vertices_multiplicity
+                    self.stsCP_vertices_indexes_filt = tmp_stsCP_vertices_indexes_filt
+                else:
+                    self.stsCP_vertices_x = ak.concatenate((self.stsCP_vertices_x, tmp_stsCP_vertices_x))
+                    self.stsCP_vertices_y = ak.concatenate((self.stsCP_vertices_y, tmp_stsCP_vertices_y))
+                    self.stsCP_vertices_z = ak.concatenate((self.stsCP_vertices_z, tmp_stsCP_vertices_z))
+                    self.stsCP_vertices_energy = ak.concatenate((self.stsCP_vertices_energy, tmp_stsCP_vertices_energy))
+                    self.stsCP_vertices_time = ak.concatenate((self.stsCP_vertices_time, tmp_stsCP_vertices_time))
+                    self.stsCP_vertices_layer_id = ak.concatenate((self.stsCP_vertices_layer_id, tmp_stsCP_vertices_layer_id))
+                    self.stsCP_vertices_noh = ak.concatenate((self.stsCP_vertices_noh, tmp_stsCP_vertices_noh))
+                    self.stsCP_vertices_eta = ak.concatenate((self.stsCP_vertices_eta, tmp_stsCP_vertices_eta))
+                    self.stsCP_vertices_phi = ak.concatenate((self.stsCP_vertices_phi, tmp_stsCP_vertices_phi))
+                    self.stsCP_vertices_indexes = ak.concatenate((self.stsCP_vertices_indexes, tmp_stsCP_vertices_indexes))
+                    self.stsCP_barycenter_x = ak.concatenate((self.stsCP_barycenter_x, tmp_stsCP_barycenter_x))
+                    self.stsCP_barycenter_y = ak.concatenate((self.stsCP_barycenter_y, tmp_stsCP_barycenter_y))
+                    self.stsCP_barycenter_z = ak.concatenate((self.stsCP_barycenter_z, tmp_stsCP_barycenter_z))
+                    self.stsCP_vertices_multiplicity = ak.concatenate((self.stsCP_vertices_multiplicity, tmp_stsCP_vertices_multiplicity))
+                    self.stsCP_vertices_indexes_filt = ak.concatenate((self.stsCP_vertices_indexes_filt, tmp_stsCP_vertices_indexes_filt))
+                
+                counter += 1
+                if len(self.stsCP_vertices_x) > max_events:
+                    print(f"Reached {max_events}!")
+                    break
+            if len(self.stsCP_vertices_x) > max_events:
+                break
+
+    
+    
+    
+
+    def download(self):
+        raise RuntimeError(
+            'Dataset not found. Please download it from {} and move all '
+            '*.z files to {}'.format(self.url, self.raw_dir))
+
+    def len(self):
+        return len(self.stsCP_vertices_x)
+
+    @property
+    def raw_file_names(self):
+        return sorted(glob.glob(osp.join(self.raw_dir, '*.root')))
+
+    @property
+    def processed_file_names(self):
+        return []
+
+    def get(self, idx):
+        # 1) Flatten node features for the event
+        lc_x = self.stsCP_vertices_x[idx]
+        lc_y = self.stsCP_vertices_y[idx]
+        lc_z = self.stsCP_vertices_z[idx]
+        lc_e = self.stsCP_vertices_energy[idx]
+        lc_layer_id = self.stsCP_vertices_layer_id[idx]
+        lc_noh = self.stsCP_vertices_noh[idx]
+        lc_eta = self.stsCP_vertices_eta[idx]
+        lc_phi = self.stsCP_vertices_phi[idx]
+
+        flat_lc_x = np.expand_dims(np.array(ak.flatten(lc_x)), axis=1)
+        flat_lc_y = np.expand_dims(np.array(ak.flatten(lc_y)), axis=1)
+        flat_lc_z = np.expand_dims(np.array(ak.flatten(lc_z)), axis=1)
+        flat_lc_e = np.expand_dims(np.array(ak.flatten(lc_e)), axis=1)
+        flat_lc_layer_id = np.expand_dims(np.array(ak.flatten(lc_layer_id)), axis=1)
+        flat_lc_noh = np.expand_dims(np.array(ak.flatten(lc_noh)), axis=1)
+        flat_lc_eta = np.expand_dims(np.array(ak.flatten(lc_eta)), axis=1)
+        flat_lc_phi = np.expand_dims(np.array(ak.flatten(lc_phi)), axis=1)
+        flat_lc_feats = np.concatenate(
+            (flat_lc_x, flat_lc_y, flat_lc_z, flat_lc_e,
+             flat_lc_layer_id, flat_lc_noh, flat_lc_eta, flat_lc_phi),
+            axis=-1
+        )
+        total_lc = flat_lc_feats.shape[0]
+        x = torch.from_numpy(flat_lc_feats).float()
+
+
+        data = Data(
+            x=x
+
+        )
+        return data

@@ -1,0 +1,13 @@
+universe = vanilla
+executable = run.sh
+arguments = $(filename)
+transfer_input_files = $(filename)
+error = logs/$(filename).error
+output = logs/$(filename).output
+log = logs/$(filename).log
+request_cpus = 2
+request_memory = 8000 
++MaxRuntime = 100000
+priority = 10000000000000
+
+queue filename from files_to_run.txt

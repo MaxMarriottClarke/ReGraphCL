@@ -1,0 +1,1569 @@
+### Loading tracksters data
+/vols/cms/mm1221/Data/100k/5pi/test/raw/test.root
+Reached 500 events!
+### Loading tracksters data
+/vols/cms/mm1221/Data/100k/5e/test/raw/test.root
+Reached 500 events!
+
+[Electrons] Threshold = 0.000
+
+Model: Threshold 0.000
+Efficiency: 0.9554 (836 associated CPs out of 875 total CPs)
+FR: 0.0626 (1079 associated Tracksters out of 1151 total Tracksters)
+Num tracksters ratio: 1.3154285714285714
+
+[Electrons] Threshold = 0.002
+
+Model: Threshold 0.002
+Efficiency: 0.9554 (836 associated CPs out of 875 total CPs)
+FR: 0.0618 (1078 associated Tracksters out of 1149 total Tracksters)
+Num tracksters ratio: 1.3131428571428572
+
+[Electrons] Threshold = 0.004
+
+Model: Threshold 0.004
+Efficiency: 0.9554 (836 associated CPs out of 875 total CPs)
+FR: 0.0618 (1077 associated Tracksters out of 1148 total Tracksters)
+Num tracksters ratio: 1.312
+
+[Electrons] Threshold = 0.006
+
+Model: Threshold 0.006
+Efficiency: 0.9554 (836 associated CPs out of 875 total CPs)
+FR: 0.0619 (1076 associated Tracksters out of 1147 total Tracksters)
+Num tracksters ratio: 1.310857142857143
+
+[Electrons] Threshold = 0.008
+
+Model: Threshold 0.008
+Efficiency: 0.9554 (836 associated CPs out of 875 total CPs)
+FR: 0.0620 (1075 associated Tracksters out of 1146 total Tracksters)
+Num tracksters ratio: 1.3097142857142856
+
+[Electrons] Threshold = 0.010
+
+Model: Threshold 0.010
+Efficiency: 0.9554 (836 associated CPs out of 875 total CPs)
+FR: 0.0620 (1074 associated Tracksters out of 1145 total Tracksters)
+Num tracksters ratio: 1.3085714285714285
+
+[Electrons] Threshold = 0.012
+
+Model: Threshold 0.012
+Efficiency: 0.9554 (836 associated CPs out of 875 total CPs)
+FR: 0.0620 (1074 associated Tracksters out of 1145 total Tracksters)
+Num tracksters ratio: 1.3085714285714285
+
+[Electrons] Threshold = 0.014
+
+Model: Threshold 0.014
+Efficiency: 0.9554 (836 associated CPs out of 875 total CPs)
+FR: 0.0622 (1070 associated Tracksters out of 1141 total Tracksters)
+Num tracksters ratio: 1.304
+
+[Electrons] Threshold = 0.016
+
+Model: Threshold 0.016
+Efficiency: 0.9566 (837 associated CPs out of 875 total CPs)
+FR: 0.0607 (1068 associated Tracksters out of 1137 total Tracksters)
+Num tracksters ratio: 1.2994285714285714
+
+[Electrons] Threshold = 0.018
+
+Model: Threshold 0.018
+Efficiency: 0.9566 (837 associated CPs out of 875 total CPs)
+FR: 0.0609 (1064 associated Tracksters out of 1133 total Tracksters)
+Num tracksters ratio: 1.294857142857143
+
+[Electrons] Threshold = 0.020
+
+Model: Threshold 0.020
+Efficiency: 0.9566 (837 associated CPs out of 875 total CPs)
+FR: 0.0601 (1064 associated Tracksters out of 1132 total Tracksters)
+Num tracksters ratio: 1.2937142857142858
+
+[Electrons] Threshold = 0.022
+
+Model: Threshold 0.022
+Efficiency: 0.9566 (837 associated CPs out of 875 total CPs)
+FR: 0.0586 (1061 associated Tracksters out of 1127 total Tracksters)
+Num tracksters ratio: 1.288
+
+[Electrons] Threshold = 0.024
+
+Model: Threshold 0.024
+Efficiency: 0.9566 (837 associated CPs out of 875 total CPs)
+FR: 0.0587 (1059 associated Tracksters out of 1125 total Tracksters)
+Num tracksters ratio: 1.2857142857142858
+
+[Electrons] Threshold = 0.026
+
+Model: Threshold 0.026
+Efficiency: 0.9566 (837 associated CPs out of 875 total CPs)
+FR: 0.0579 (1058 associated Tracksters out of 1123 total Tracksters)
+Num tracksters ratio: 1.2834285714285714
+
+[Electrons] Threshold = 0.028
+
+Model: Threshold 0.028
+Efficiency: 0.9577 (838 associated CPs out of 875 total CPs)
+FR: 0.0572 (1055 associated Tracksters out of 1119 total Tracksters)
+Num tracksters ratio: 1.278857142857143
+
+[Electrons] Threshold = 0.030
+
+Model: Threshold 0.030
+Efficiency: 0.9589 (839 associated CPs out of 875 total CPs)
+FR: 0.0565 (1052 associated Tracksters out of 1115 total Tracksters)
+Num tracksters ratio: 1.2742857142857142
+
+[Electrons] Threshold = 0.032
+
+Model: Threshold 0.032
+Efficiency: 0.9589 (839 associated CPs out of 875 total CPs)
+FR: 0.0576 (1047 associated Tracksters out of 1111 total Tracksters)
+Num tracksters ratio: 1.2697142857142858
+
+[Electrons] Threshold = 0.034
+
+Model: Threshold 0.034
+Efficiency: 0.9589 (839 associated CPs out of 875 total CPs)
+FR: 0.0580 (1040 associated Tracksters out of 1104 total Tracksters)
+Num tracksters ratio: 1.2617142857142858
+
+[Electrons] Threshold = 0.036
+
+Model: Threshold 0.036
+Efficiency: 0.9600 (840 associated CPs out of 875 total CPs)
+FR: 0.0591 (1035 associated Tracksters out of 1100 total Tracksters)
+Num tracksters ratio: 1.2571428571428571
+
+[Electrons] Threshold = 0.038
+
+Model: Threshold 0.038
+Efficiency: 0.9611 (841 associated CPs out of 875 total CPs)
+FR: 0.0593 (1032 associated Tracksters out of 1097 total Tracksters)
+Num tracksters ratio: 1.2537142857142858
+
+[Electrons] Threshold = 0.040
+
+Model: Threshold 0.040
+Efficiency: 0.9611 (841 associated CPs out of 875 total CPs)
+FR: 0.0602 (1030 associated Tracksters out of 1096 total Tracksters)
+Num tracksters ratio: 1.2525714285714287
+
+[Electrons] Threshold = 0.042
+
+Model: Threshold 0.042
+Efficiency: 0.9634 (843 associated CPs out of 875 total CPs)
+FR: 0.0605 (1025 associated Tracksters out of 1091 total Tracksters)
+Num tracksters ratio: 1.2468571428571429
+
+[Electrons] Threshold = 0.044
+
+Model: Threshold 0.044
+Efficiency: 0.9646 (844 associated CPs out of 875 total CPs)
+FR: 0.0606 (1023 associated Tracksters out of 1089 total Tracksters)
+Num tracksters ratio: 1.2445714285714287
+
+[Electrons] Threshold = 0.046
+
+Model: Threshold 0.046
+Efficiency: 0.9646 (844 associated CPs out of 875 total CPs)
+FR: 0.0617 (1019 associated Tracksters out of 1086 total Tracksters)
+Num tracksters ratio: 1.241142857142857
+
+[Electrons] Threshold = 0.048
+
+Model: Threshold 0.048
+Efficiency: 0.9646 (844 associated CPs out of 875 total CPs)
+FR: 0.0619 (1016 associated Tracksters out of 1083 total Tracksters)
+Num tracksters ratio: 1.2377142857142858
+
+[Electrons] Threshold = 0.050
+
+Model: Threshold 0.050
+Efficiency: 0.9646 (844 associated CPs out of 875 total CPs)
+FR: 0.0630 (1012 associated Tracksters out of 1080 total Tracksters)
+Num tracksters ratio: 1.2342857142857142
+
+[Electrons] Threshold = 0.052
+
+Model: Threshold 0.052
+Efficiency: 0.9646 (844 associated CPs out of 875 total CPs)
+FR: 0.0623 (1008 associated Tracksters out of 1075 total Tracksters)
+Num tracksters ratio: 1.2285714285714286
+
+[Electrons] Threshold = 0.054
+
+Model: Threshold 0.054
+Efficiency: 0.9646 (844 associated CPs out of 875 total CPs)
+FR: 0.0626 (1004 associated Tracksters out of 1071 total Tracksters)
+Num tracksters ratio: 1.224
+
+[Electrons] Threshold = 0.056
+
+Model: Threshold 0.056
+Efficiency: 0.9657 (845 associated CPs out of 875 total CPs)
+FR: 0.0641 (993 associated Tracksters out of 1061 total Tracksters)
+Num tracksters ratio: 1.2125714285714286
+
+[Electrons] Threshold = 0.058
+
+Model: Threshold 0.058
+Efficiency: 0.9669 (846 associated CPs out of 875 total CPs)
+FR: 0.0646 (984 associated Tracksters out of 1052 total Tracksters)
+Num tracksters ratio: 1.2022857142857142
+
+[Electrons] Threshold = 0.060
+
+Model: Threshold 0.060
+Efficiency: 0.9669 (846 associated CPs out of 875 total CPs)
+FR: 0.0660 (977 associated Tracksters out of 1046 total Tracksters)
+Num tracksters ratio: 1.1954285714285715
+
+[Electrons] Threshold = 0.062
+
+Model: Threshold 0.062
+Efficiency: 0.9669 (846 associated CPs out of 875 total CPs)
+FR: 0.0673 (970 associated Tracksters out of 1040 total Tracksters)
+Num tracksters ratio: 1.1885714285714286
+
+[Electrons] Threshold = 0.064
+
+Model: Threshold 0.064
+Efficiency: 0.9680 (847 associated CPs out of 875 total CPs)
+FR: 0.0687 (962 associated Tracksters out of 1033 total Tracksters)
+Num tracksters ratio: 1.1805714285714286
+
+[Electrons] Threshold = 0.066
+
+Model: Threshold 0.066
+Efficiency: 0.9680 (847 associated CPs out of 875 total CPs)
+FR: 0.0702 (953 associated Tracksters out of 1025 total Tracksters)
+Num tracksters ratio: 1.1714285714285715
+
+[Electrons] Threshold = 0.068
+
+Model: Threshold 0.068
+Efficiency: 0.9680 (847 associated CPs out of 875 total CPs)
+FR: 0.0705 (950 associated Tracksters out of 1022 total Tracksters)
+Num tracksters ratio: 1.168
+
+[Electrons] Threshold = 0.070
+
+Model: Threshold 0.070
+Efficiency: 0.9680 (847 associated CPs out of 875 total CPs)
+FR: 0.0697 (947 associated Tracksters out of 1018 total Tracksters)
+Num tracksters ratio: 1.1634285714285715
+
+[Electrons] Threshold = 0.072
+
+Model: Threshold 0.072
+Efficiency: 0.9680 (847 associated CPs out of 875 total CPs)
+FR: 0.0701 (942 associated Tracksters out of 1013 total Tracksters)
+Num tracksters ratio: 1.1577142857142857
+
+[Electrons] Threshold = 0.074
+
+Model: Threshold 0.074
+Efficiency: 0.9691 (848 associated CPs out of 875 total CPs)
+FR: 0.0695 (937 associated Tracksters out of 1007 total Tracksters)
+Num tracksters ratio: 1.1508571428571428
+
+[Electrons] Threshold = 0.076
+
+Model: Threshold 0.076
+Efficiency: 0.9691 (848 associated CPs out of 875 total CPs)
+FR: 0.0699 (932 associated Tracksters out of 1002 total Tracksters)
+Num tracksters ratio: 1.1451428571428572
+
+[Electrons] Threshold = 0.078
+
+Model: Threshold 0.078
+Efficiency: 0.9691 (848 associated CPs out of 875 total CPs)
+FR: 0.0703 (926 associated Tracksters out of 996 total Tracksters)
+Num tracksters ratio: 1.1382857142857143
+
+[Electrons] Threshold = 0.080
+
+Model: Threshold 0.080
+Efficiency: 0.9703 (849 associated CPs out of 875 total CPs)
+FR: 0.0715 (922 associated Tracksters out of 993 total Tracksters)
+Num tracksters ratio: 1.1348571428571428
+
+[Electrons] Threshold = 0.082
+
+Model: Threshold 0.082
+Efficiency: 0.9714 (850 associated CPs out of 875 total CPs)
+FR: 0.0709 (918 associated Tracksters out of 988 total Tracksters)
+Num tracksters ratio: 1.1291428571428572
+
+[Electrons] Threshold = 0.084
+
+Model: Threshold 0.084
+Efficiency: 0.9714 (850 associated CPs out of 875 total CPs)
+FR: 0.0723 (911 associated Tracksters out of 982 total Tracksters)
+Num tracksters ratio: 1.1222857142857143
+
+[Electrons] Threshold = 0.086
+
+Model: Threshold 0.086
+Efficiency: 0.9714 (850 associated CPs out of 875 total CPs)
+FR: 0.0706 (909 associated Tracksters out of 978 total Tracksters)
+Num tracksters ratio: 1.1177142857142857
+
+[Electrons] Threshold = 0.088
+
+Model: Threshold 0.088
+Efficiency: 0.9714 (850 associated CPs out of 875 total CPs)
+FR: 0.0727 (905 associated Tracksters out of 976 total Tracksters)
+Num tracksters ratio: 1.1154285714285714
+
+[Electrons] Threshold = 0.090
+
+Model: Threshold 0.090
+Efficiency: 0.9726 (851 associated CPs out of 875 total CPs)
+FR: 0.0731 (900 associated Tracksters out of 971 total Tracksters)
+Num tracksters ratio: 1.1097142857142857
+
+[Electrons] Threshold = 0.092
+
+Model: Threshold 0.092
+Efficiency: 0.9726 (851 associated CPs out of 875 total CPs)
+FR: 0.0724 (897 associated Tracksters out of 967 total Tracksters)
+Num tracksters ratio: 1.1051428571428572
+
+[Electrons] Threshold = 0.094
+
+Model: Threshold 0.094
+Efficiency: 0.9737 (852 associated CPs out of 875 total CPs)
+FR: 0.0749 (889 associated Tracksters out of 961 total Tracksters)
+Num tracksters ratio: 1.0982857142857143
+
+[Electrons] Threshold = 0.096
+
+Model: Threshold 0.096
+Efficiency: 0.9737 (852 associated CPs out of 875 total CPs)
+FR: 0.0764 (883 associated Tracksters out of 956 total Tracksters)
+Num tracksters ratio: 1.0925714285714285
+
+[Electrons] Threshold = 0.098
+
+Model: Threshold 0.098
+Efficiency: 0.9737 (852 associated CPs out of 875 total CPs)
+FR: 0.0802 (872 associated Tracksters out of 948 total Tracksters)
+Num tracksters ratio: 1.0834285714285714
+
+[Electrons] Threshold = 0.100
+
+Model: Threshold 0.100
+Efficiency: 0.9749 (853 associated CPs out of 875 total CPs)
+FR: 0.0795 (868 associated Tracksters out of 943 total Tracksters)
+Num tracksters ratio: 1.0777142857142856
+
+[Electrons] Threshold = 0.102
+
+Model: Threshold 0.102
+Efficiency: 0.9749 (853 associated CPs out of 875 total CPs)
+FR: 0.0798 (865 associated Tracksters out of 940 total Tracksters)
+Num tracksters ratio: 1.0742857142857143
+
+[Electrons] Threshold = 0.104
+
+Model: Threshold 0.104
+Efficiency: 0.9749 (853 associated CPs out of 875 total CPs)
+FR: 0.0789 (864 associated Tracksters out of 938 total Tracksters)
+Num tracksters ratio: 1.072
+
+[Electrons] Threshold = 0.106
+
+Model: Threshold 0.106
+Efficiency: 0.9749 (853 associated CPs out of 875 total CPs)
+FR: 0.0784 (858 associated Tracksters out of 931 total Tracksters)
+Num tracksters ratio: 1.064
+
+[Electrons] Threshold = 0.108
+
+Model: Threshold 0.108
+Efficiency: 0.9749 (853 associated CPs out of 875 total CPs)
+FR: 0.0787 (854 associated Tracksters out of 927 total Tracksters)
+Num tracksters ratio: 1.0594285714285714
+
+[Electrons] Threshold = 0.110
+
+Model: Threshold 0.110
+Efficiency: 0.9749 (853 associated CPs out of 875 total CPs)
+FR: 0.0770 (851 associated Tracksters out of 922 total Tracksters)
+Num tracksters ratio: 1.0537142857142856
+
+[Electrons] Threshold = 0.112
+
+Model: Threshold 0.112
+Efficiency: 0.9749 (853 associated CPs out of 875 total CPs)
+FR: 0.0773 (847 associated Tracksters out of 918 total Tracksters)
+Num tracksters ratio: 1.0491428571428572
+
+[Electrons] Threshold = 0.114
+
+Model: Threshold 0.114
+Efficiency: 0.9749 (853 associated CPs out of 875 total CPs)
+FR: 0.0776 (844 associated Tracksters out of 915 total Tracksters)
+Num tracksters ratio: 1.0457142857142858
+
+[Electrons] Threshold = 0.116
+
+Model: Threshold 0.116
+Efficiency: 0.9749 (853 associated CPs out of 875 total CPs)
+FR: 0.0794 (835 associated Tracksters out of 907 total Tracksters)
+Num tracksters ratio: 1.0365714285714285
+
+[Electrons] Threshold = 0.118
+
+Model: Threshold 0.118
+Efficiency: 0.9749 (853 associated CPs out of 875 total CPs)
+FR: 0.0807 (832 associated Tracksters out of 905 total Tracksters)
+Num tracksters ratio: 1.0342857142857143
+
+[Electrons] Threshold = 0.120
+
+Model: Threshold 0.120
+Efficiency: 0.9749 (853 associated CPs out of 875 total CPs)
+FR: 0.0809 (829 associated Tracksters out of 902 total Tracksters)
+Num tracksters ratio: 1.030857142857143
+
+[Electrons] Threshold = 0.122
+
+Model: Threshold 0.122
+Efficiency: 0.9749 (853 associated CPs out of 875 total CPs)
+FR: 0.0803 (825 associated Tracksters out of 897 total Tracksters)
+Num tracksters ratio: 1.0251428571428571
+
+[Electrons] Threshold = 0.124
+
+Model: Threshold 0.124
+Efficiency: 0.9760 (854 associated CPs out of 875 total CPs)
+FR: 0.0817 (821 associated Tracksters out of 894 total Tracksters)
+Num tracksters ratio: 1.0217142857142858
+
+[Electrons] Threshold = 0.126
+
+Model: Threshold 0.126
+Efficiency: 0.9760 (854 associated CPs out of 875 total CPs)
+FR: 0.0817 (820 associated Tracksters out of 893 total Tracksters)
+Num tracksters ratio: 1.0205714285714285
+
+[Electrons] Threshold = 0.128
+
+Model: Threshold 0.128
+Efficiency: 0.9771 (855 associated CPs out of 875 total CPs)
+FR: 0.0830 (818 associated Tracksters out of 892 total Tracksters)
+Num tracksters ratio: 1.0194285714285714
+
+[Electrons] Threshold = 0.130
+
+Model: Threshold 0.130
+Efficiency: 0.9771 (855 associated CPs out of 875 total CPs)
+FR: 0.0811 (816 associated Tracksters out of 888 total Tracksters)
+Num tracksters ratio: 1.014857142857143
+
+[Electrons] Threshold = 0.132
+
+Model: Threshold 0.132
+Efficiency: 0.9771 (855 associated CPs out of 875 total CPs)
+FR: 0.0814 (812 associated Tracksters out of 884 total Tracksters)
+Num tracksters ratio: 1.0102857142857142
+
+[Electrons] Threshold = 0.134
+
+Model: Threshold 0.134
+Efficiency: 0.9771 (855 associated CPs out of 875 total CPs)
+FR: 0.0817 (809 associated Tracksters out of 881 total Tracksters)
+Num tracksters ratio: 1.006857142857143
+
+[Electrons] Threshold = 0.136
+
+Model: Threshold 0.136
+Efficiency: 0.9771 (855 associated CPs out of 875 total CPs)
+FR: 0.0845 (802 associated Tracksters out of 876 total Tracksters)
+Num tracksters ratio: 1.0011428571428571
+
+[Electrons] Threshold = 0.138
+
+Model: Threshold 0.138
+Efficiency: 0.9771 (855 associated CPs out of 875 total CPs)
+FR: 0.0860 (797 associated Tracksters out of 872 total Tracksters)
+Num tracksters ratio: 0.9965714285714286
+
+[Electrons] Threshold = 0.140
+
+Model: Threshold 0.140
+Efficiency: 0.9771 (855 associated CPs out of 875 total CPs)
+FR: 0.0890 (788 associated Tracksters out of 865 total Tracksters)
+Num tracksters ratio: 0.9885714285714285
+
+[Electrons] Threshold = 0.142
+
+Model: Threshold 0.142
+Efficiency: 0.9783 (856 associated CPs out of 875 total CPs)
+FR: 0.0906 (783 associated Tracksters out of 861 total Tracksters)
+Num tracksters ratio: 0.984
+
+[Electrons] Threshold = 0.144
+
+Model: Threshold 0.144
+Efficiency: 0.9783 (856 associated CPs out of 875 total CPs)
+FR: 0.0932 (778 associated Tracksters out of 858 total Tracksters)
+Num tracksters ratio: 0.9805714285714285
+
+[Electrons] Threshold = 0.146
+
+Model: Threshold 0.146
+Efficiency: 0.9794 (857 associated CPs out of 875 total CPs)
+FR: 0.0946 (775 associated Tracksters out of 856 total Tracksters)
+Num tracksters ratio: 0.9782857142857143
+
+[Electrons] Threshold = 0.148
+
+Model: Threshold 0.148
+Efficiency: 0.9794 (857 associated CPs out of 875 total CPs)
+FR: 0.0940 (771 associated Tracksters out of 851 total Tracksters)
+Num tracksters ratio: 0.9725714285714285
+
+[Electrons] Threshold = 0.150
+
+Model: Threshold 0.150
+Efficiency: 0.9794 (857 associated CPs out of 875 total CPs)
+FR: 0.0945 (767 associated Tracksters out of 847 total Tracksters)
+Num tracksters ratio: 0.968
+
+[Electrons] Threshold = 0.152
+
+Model: Threshold 0.152
+Efficiency: 0.9794 (857 associated CPs out of 875 total CPs)
+FR: 0.0963 (760 associated Tracksters out of 841 total Tracksters)
+Num tracksters ratio: 0.9611428571428572
+
+[Electrons] Threshold = 0.154
+
+Model: Threshold 0.154
+Efficiency: 0.9794 (857 associated CPs out of 875 total CPs)
+FR: 0.0968 (756 associated Tracksters out of 837 total Tracksters)
+Num tracksters ratio: 0.9565714285714285
+
+[Electrons] Threshold = 0.156
+
+Model: Threshold 0.156
+Efficiency: 0.9794 (857 associated CPs out of 875 total CPs)
+FR: 0.0958 (755 associated Tracksters out of 835 total Tracksters)
+Num tracksters ratio: 0.9542857142857143
+
+[Electrons] Threshold = 0.158
+
+Model: Threshold 0.158
+Efficiency: 0.9794 (857 associated CPs out of 875 total CPs)
+FR: 0.0948 (754 associated Tracksters out of 833 total Tracksters)
+Num tracksters ratio: 0.952
+
+[Electrons] Threshold = 0.160
+
+Model: Threshold 0.160
+Efficiency: 0.9794 (857 associated CPs out of 875 total CPs)
+FR: 0.0953 (750 associated Tracksters out of 829 total Tracksters)
+Num tracksters ratio: 0.9474285714285714
+
+[Electrons] Threshold = 0.162
+
+Model: Threshold 0.162
+Efficiency: 0.9794 (857 associated CPs out of 875 total CPs)
+FR: 0.0955 (748 associated Tracksters out of 827 total Tracksters)
+Num tracksters ratio: 0.9451428571428572
+
+[Electrons] Threshold = 0.164
+
+Model: Threshold 0.164
+Efficiency: 0.9794 (857 associated CPs out of 875 total CPs)
+FR: 0.0970 (745 associated Tracksters out of 825 total Tracksters)
+Num tracksters ratio: 0.9428571428571428
+
+[Electrons] Threshold = 0.166
+
+Model: Threshold 0.166
+Efficiency: 0.9794 (857 associated CPs out of 875 total CPs)
+FR: 0.0961 (743 associated Tracksters out of 822 total Tracksters)
+Num tracksters ratio: 0.9394285714285714
+
+[Electrons] Threshold = 0.168
+
+Model: Threshold 0.168
+Efficiency: 0.9806 (858 associated CPs out of 875 total CPs)
+FR: 0.0989 (738 associated Tracksters out of 819 total Tracksters)
+Num tracksters ratio: 0.936
+
+[Electrons] Threshold = 0.170
+
+Model: Threshold 0.170
+Efficiency: 0.9806 (858 associated CPs out of 875 total CPs)
+FR: 0.1004 (735 associated Tracksters out of 817 total Tracksters)
+Num tracksters ratio: 0.9337142857142857
+
+[Electrons] Threshold = 0.172
+
+Model: Threshold 0.172
+Efficiency: 0.9817 (859 associated CPs out of 875 total CPs)
+FR: 0.0994 (734 associated Tracksters out of 815 total Tracksters)
+Num tracksters ratio: 0.9314285714285714
+
+[Electrons] Threshold = 0.174
+
+Model: Threshold 0.174
+Efficiency: 0.9817 (859 associated CPs out of 875 total CPs)
+FR: 0.0996 (732 associated Tracksters out of 813 total Tracksters)
+Num tracksters ratio: 0.9291428571428572
+
+[Electrons] Threshold = 0.176
+
+Model: Threshold 0.176
+Efficiency: 0.9817 (859 associated CPs out of 875 total CPs)
+FR: 0.1000 (729 associated Tracksters out of 810 total Tracksters)
+Num tracksters ratio: 0.9257142857142857
+
+[Electrons] Threshold = 0.178
+
+Model: Threshold 0.178
+Efficiency: 0.9829 (860 associated CPs out of 875 total CPs)
+FR: 0.0995 (724 associated Tracksters out of 804 total Tracksters)
+Num tracksters ratio: 0.9188571428571428
+
+[Electrons] Threshold = 0.180
+
+Model: Threshold 0.180
+Efficiency: 0.9829 (860 associated CPs out of 875 total CPs)
+FR: 0.0988 (721 associated Tracksters out of 800 total Tracksters)
+Num tracksters ratio: 0.9142857142857143
+
+[Electrons] Threshold = 0.182
+
+Model: Threshold 0.182
+Efficiency: 0.9829 (860 associated CPs out of 875 total CPs)
+FR: 0.1018 (715 associated Tracksters out of 796 total Tracksters)
+Num tracksters ratio: 0.9097142857142857
+
+[Electrons] Threshold = 0.184
+
+Model: Threshold 0.184
+Efficiency: 0.9829 (860 associated CPs out of 875 total CPs)
+FR: 0.1020 (713 associated Tracksters out of 794 total Tracksters)
+Num tracksters ratio: 0.9074285714285715
+
+[Electrons] Threshold = 0.186
+
+Model: Threshold 0.186
+Efficiency: 0.9829 (860 associated CPs out of 875 total CPs)
+FR: 0.1011 (711 associated Tracksters out of 791 total Tracksters)
+Num tracksters ratio: 0.904
+
+[Electrons] Threshold = 0.188
+
+Model: Threshold 0.188
+Efficiency: 0.9829 (860 associated CPs out of 875 total CPs)
+FR: 0.1013 (710 associated Tracksters out of 790 total Tracksters)
+Num tracksters ratio: 0.9028571428571428
+
+[Electrons] Threshold = 0.190
+
+Model: Threshold 0.190
+Efficiency: 0.9829 (860 associated CPs out of 875 total CPs)
+FR: 0.1057 (702 associated Tracksters out of 785 total Tracksters)
+Num tracksters ratio: 0.8971428571428571
+
+[Electrons] Threshold = 0.192
+
+Model: Threshold 0.192
+Efficiency: 0.9840 (861 associated CPs out of 875 total CPs)
+FR: 0.1078 (695 associated Tracksters out of 779 total Tracksters)
+Num tracksters ratio: 0.8902857142857142
+
+[Electrons] Threshold = 0.194
+
+Model: Threshold 0.194
+Efficiency: 0.9840 (861 associated CPs out of 875 total CPs)
+FR: 0.1080 (694 associated Tracksters out of 778 total Tracksters)
+Num tracksters ratio: 0.8891428571428571
+
+[Electrons] Threshold = 0.196
+
+Model: Threshold 0.196
+Efficiency: 0.9840 (861 associated CPs out of 875 total CPs)
+FR: 0.1097 (690 associated Tracksters out of 775 total Tracksters)
+Num tracksters ratio: 0.8857142857142857
+
+[Electrons] Threshold = 0.198
+
+Model: Threshold 0.198
+Efficiency: 0.9840 (861 associated CPs out of 875 total CPs)
+FR: 0.1098 (689 associated Tracksters out of 774 total Tracksters)
+Num tracksters ratio: 0.8845714285714286
+
+[Electrons] Threshold = 0.200
+
+Model: Threshold 0.200
+Efficiency: 0.9840 (861 associated CPs out of 875 total CPs)
+FR: 0.1098 (689 associated Tracksters out of 774 total Tracksters)
+Num tracksters ratio: 0.8845714285714286
+
+[Electrons] Threshold = 0.202
+
+Model: Threshold 0.202
+Efficiency: 0.9840 (861 associated CPs out of 875 total CPs)
+FR: 0.1087 (689 associated Tracksters out of 773 total Tracksters)
+Num tracksters ratio: 0.8834285714285715
+
+[Electrons] Threshold = 0.204
+
+Model: Threshold 0.204
+Efficiency: 0.9840 (861 associated CPs out of 875 total CPs)
+FR: 0.1092 (685 associated Tracksters out of 769 total Tracksters)
+Num tracksters ratio: 0.8788571428571429
+
+[Electrons] Threshold = 0.206
+
+Model: Threshold 0.206
+Efficiency: 0.9840 (861 associated CPs out of 875 total CPs)
+FR: 0.1098 (681 associated Tracksters out of 765 total Tracksters)
+Num tracksters ratio: 0.8742857142857143
+
+[Electrons] Threshold = 0.208
+
+Model: Threshold 0.208
+Efficiency: 0.9840 (861 associated CPs out of 875 total CPs)
+FR: 0.1101 (679 associated Tracksters out of 763 total Tracksters)
+Num tracksters ratio: 0.872
+
+[Electrons] Threshold = 0.210
+
+Model: Threshold 0.210
+Efficiency: 0.9840 (861 associated CPs out of 875 total CPs)
+FR: 0.1118 (675 associated Tracksters out of 760 total Tracksters)
+Num tracksters ratio: 0.8685714285714285
+
+[Electrons] Threshold = 0.212
+
+Model: Threshold 0.212
+Efficiency: 0.9840 (861 associated CPs out of 875 total CPs)
+FR: 0.1121 (673 associated Tracksters out of 758 total Tracksters)
+Num tracksters ratio: 0.8662857142857143
+
+[Electrons] Threshold = 0.214
+
+Model: Threshold 0.214
+Efficiency: 0.9840 (861 associated CPs out of 875 total CPs)
+FR: 0.1141 (668 associated Tracksters out of 754 total Tracksters)
+Num tracksters ratio: 0.8617142857142858
+
+[Electrons] Threshold = 0.216
+
+Model: Threshold 0.216
+Efficiency: 0.9840 (861 associated CPs out of 875 total CPs)
+FR: 0.1142 (667 associated Tracksters out of 753 total Tracksters)
+Num tracksters ratio: 0.8605714285714285
+
+[Electrons] Threshold = 0.218
+
+Model: Threshold 0.218
+Efficiency: 0.9840 (861 associated CPs out of 875 total CPs)
+FR: 0.1142 (667 associated Tracksters out of 753 total Tracksters)
+Num tracksters ratio: 0.8605714285714285
+
+[Electrons] Threshold = 0.220
+
+Model: Threshold 0.220
+Efficiency: 0.9851 (862 associated CPs out of 875 total CPs)
+FR: 0.1176 (660 associated Tracksters out of 748 total Tracksters)
+Num tracksters ratio: 0.8548571428571429
+
+[Electrons] Threshold = 0.222
+
+Model: Threshold 0.222
+Efficiency: 0.9851 (862 associated CPs out of 875 total CPs)
+FR: 0.1178 (659 associated Tracksters out of 747 total Tracksters)
+Num tracksters ratio: 0.8537142857142858
+
+[Electrons] Threshold = 0.224
+
+Model: Threshold 0.224
+Efficiency: 0.9851 (862 associated CPs out of 875 total CPs)
+FR: 0.1178 (659 associated Tracksters out of 747 total Tracksters)
+Num tracksters ratio: 0.8537142857142858
+
+[Electrons] Threshold = 0.226
+
+Model: Threshold 0.226
+Efficiency: 0.9851 (862 associated CPs out of 875 total CPs)
+FR: 0.1199 (653 associated Tracksters out of 742 total Tracksters)
+Num tracksters ratio: 0.848
+
+[Electrons] Threshold = 0.228
+
+Model: Threshold 0.228
+Efficiency: 0.9851 (862 associated CPs out of 875 total CPs)
+FR: 0.1189 (652 associated Tracksters out of 740 total Tracksters)
+Num tracksters ratio: 0.8457142857142858
+
+[Electrons] Threshold = 0.230
+
+Model: Threshold 0.230
+Efficiency: 0.9851 (862 associated CPs out of 875 total CPs)
+FR: 0.1189 (652 associated Tracksters out of 740 total Tracksters)
+Num tracksters ratio: 0.8457142857142858
+
+[Electrons] Threshold = 0.232
+
+Model: Threshold 0.232
+Efficiency: 0.9851 (862 associated CPs out of 875 total CPs)
+FR: 0.1179 (651 associated Tracksters out of 738 total Tracksters)
+Num tracksters ratio: 0.8434285714285714
+
+[Electrons] Threshold = 0.234
+
+Model: Threshold 0.234
+Efficiency: 0.9851 (862 associated CPs out of 875 total CPs)
+FR: 0.1182 (649 associated Tracksters out of 736 total Tracksters)
+Num tracksters ratio: 0.8411428571428572
+
+[Electrons] Threshold = 0.236
+
+Model: Threshold 0.236
+Efficiency: 0.9863 (863 associated CPs out of 875 total CPs)
+FR: 0.1187 (646 associated Tracksters out of 733 total Tracksters)
+Num tracksters ratio: 0.8377142857142857
+
+[Electrons] Threshold = 0.238
+
+Model: Threshold 0.238
+Efficiency: 0.9863 (863 associated CPs out of 875 total CPs)
+FR: 0.1219 (641 associated Tracksters out of 730 total Tracksters)
+Num tracksters ratio: 0.8342857142857143
+
+[Electrons] Threshold = 0.240
+
+Model: Threshold 0.240
+Efficiency: 0.9863 (863 associated CPs out of 875 total CPs)
+FR: 0.1236 (638 associated Tracksters out of 728 total Tracksters)
+Num tracksters ratio: 0.832
+
+[Electrons] Threshold = 0.242
+
+Model: Threshold 0.242
+Efficiency: 0.9863 (863 associated CPs out of 875 total CPs)
+FR: 0.1236 (638 associated Tracksters out of 728 total Tracksters)
+Num tracksters ratio: 0.832
+
+[Electrons] Threshold = 0.244
+
+Model: Threshold 0.244
+Efficiency: 0.9863 (863 associated CPs out of 875 total CPs)
+FR: 0.1269 (633 associated Tracksters out of 725 total Tracksters)
+Num tracksters ratio: 0.8285714285714286
+
+[Electrons] Threshold = 0.246
+
+Model: Threshold 0.246
+Efficiency: 0.9863 (863 associated CPs out of 875 total CPs)
+FR: 0.1286 (630 associated Tracksters out of 723 total Tracksters)
+Num tracksters ratio: 0.8262857142857143
+
+[Electrons] Threshold = 0.248
+
+Model: Threshold 0.248
+Efficiency: 0.9863 (863 associated CPs out of 875 total CPs)
+FR: 0.1319 (625 associated Tracksters out of 720 total Tracksters)
+Num tracksters ratio: 0.8228571428571428
+
+[Electrons] Threshold = 0.250
+
+Model: Threshold 0.250
+Efficiency: 0.9863 (863 associated CPs out of 875 total CPs)
+FR: 0.1335 (623 associated Tracksters out of 719 total Tracksters)
+Num tracksters ratio: 0.8217142857142857
+
+[Electrons] Threshold = 0.252
+
+Model: Threshold 0.252
+Efficiency: 0.9863 (863 associated CPs out of 875 total CPs)
+FR: 0.1337 (622 associated Tracksters out of 718 total Tracksters)
+Num tracksters ratio: 0.8205714285714286
+
+[Electrons] Threshold = 0.254
+
+Model: Threshold 0.254
+Efficiency: 0.9863 (863 associated CPs out of 875 total CPs)
+FR: 0.1341 (620 associated Tracksters out of 716 total Tracksters)
+Num tracksters ratio: 0.8182857142857143
+
+[Electrons] Threshold = 0.256
+
+Model: Threshold 0.256
+Efficiency: 0.9863 (863 associated CPs out of 875 total CPs)
+FR: 0.1359 (617 associated Tracksters out of 714 total Tracksters)
+Num tracksters ratio: 0.816
+
+[Electrons] Threshold = 0.258
+
+Model: Threshold 0.258
+Efficiency: 0.9863 (863 associated CPs out of 875 total CPs)
+FR: 0.1346 (617 associated Tracksters out of 713 total Tracksters)
+Num tracksters ratio: 0.8148571428571428
+
+[Electrons] Threshold = 0.260
+
+Model: Threshold 0.260
+Efficiency: 0.9863 (863 associated CPs out of 875 total CPs)
+FR: 0.1378 (613 associated Tracksters out of 711 total Tracksters)
+Num tracksters ratio: 0.8125714285714286
+
+[Electrons] Threshold = 0.262
+
+Model: Threshold 0.262
+Efficiency: 0.9863 (863 associated CPs out of 875 total CPs)
+FR: 0.1398 (609 associated Tracksters out of 708 total Tracksters)
+Num tracksters ratio: 0.8091428571428572
+
+[Electrons] Threshold = 0.264
+
+Model: Threshold 0.264
+Efficiency: 0.9874 (864 associated CPs out of 875 total CPs)
+FR: 0.1404 (606 associated Tracksters out of 705 total Tracksters)
+Num tracksters ratio: 0.8057142857142857
+
+[Electrons] Threshold = 0.266
+
+Model: Threshold 0.266
+Efficiency: 0.9874 (864 associated CPs out of 875 total CPs)
+FR: 0.1422 (603 associated Tracksters out of 703 total Tracksters)
+Num tracksters ratio: 0.8034285714285714
+
+[Electrons] Threshold = 0.268
+
+Model: Threshold 0.268
+Efficiency: 0.9874 (864 associated CPs out of 875 total CPs)
+FR: 0.1439 (601 associated Tracksters out of 702 total Tracksters)
+Num tracksters ratio: 0.8022857142857143
+
+[Electrons] Threshold = 0.270
+
+Model: Threshold 0.270
+Efficiency: 0.9886 (865 associated CPs out of 875 total CPs)
+FR: 0.1474 (596 associated Tracksters out of 699 total Tracksters)
+Num tracksters ratio: 0.7988571428571428
+
+[Electrons] Threshold = 0.272
+
+Model: Threshold 0.272
+Efficiency: 0.9897 (866 associated CPs out of 875 total CPs)
+FR: 0.1496 (591 associated Tracksters out of 695 total Tracksters)
+Num tracksters ratio: 0.7942857142857143
+
+[Electrons] Threshold = 0.274
+
+Model: Threshold 0.274
+Efficiency: 0.9897 (866 associated CPs out of 875 total CPs)
+FR: 0.1499 (590 associated Tracksters out of 694 total Tracksters)
+Num tracksters ratio: 0.7931428571428571
+
+[Electrons] Threshold = 0.276
+
+Model: Threshold 0.276
+Efficiency: 0.9909 (867 associated CPs out of 875 total CPs)
+FR: 0.1601 (577 associated Tracksters out of 687 total Tracksters)
+Num tracksters ratio: 0.7851428571428571
+
+[Electrons] Threshold = 0.278
+
+Model: Threshold 0.278
+Efficiency: 0.9909 (867 associated CPs out of 875 total CPs)
+FR: 0.1625 (572 associated Tracksters out of 683 total Tracksters)
+Num tracksters ratio: 0.7805714285714286
+
+[Electrons] Threshold = 0.280
+
+Model: Threshold 0.280
+Efficiency: 0.9920 (868 associated CPs out of 875 total CPs)
+FR: 0.1679 (565 associated Tracksters out of 679 total Tracksters)
+Num tracksters ratio: 0.776
+
+[Electrons] Threshold = 0.282
+
+Model: Threshold 0.282
+Efficiency: 0.9920 (868 associated CPs out of 875 total CPs)
+FR: 0.1704 (560 associated Tracksters out of 675 total Tracksters)
+Num tracksters ratio: 0.7714285714285715
+
+[Electrons] Threshold = 0.284
+
+Model: Threshold 0.284
+Efficiency: 0.9931 (869 associated CPs out of 875 total CPs)
+FR: 0.1696 (558 associated Tracksters out of 672 total Tracksters)
+Num tracksters ratio: 0.768
+
+[Electrons] Threshold = 0.286
+
+Model: Threshold 0.286
+Efficiency: 0.9931 (869 associated CPs out of 875 total CPs)
+FR: 0.1724 (552 associated Tracksters out of 667 total Tracksters)
+Num tracksters ratio: 0.7622857142857142
+
+[Electrons] Threshold = 0.288
+
+Model: Threshold 0.288
+Efficiency: 0.9931 (869 associated CPs out of 875 total CPs)
+FR: 0.1729 (550 associated Tracksters out of 665 total Tracksters)
+Num tracksters ratio: 0.76
+
+[Electrons] Threshold = 0.290
+
+Model: Threshold 0.290
+Efficiency: 0.9931 (869 associated CPs out of 875 total CPs)
+FR: 0.1740 (546 associated Tracksters out of 661 total Tracksters)
+Num tracksters ratio: 0.7554285714285714
+
+[Electrons] Threshold = 0.292
+
+Model: Threshold 0.292
+Efficiency: 0.9931 (869 associated CPs out of 875 total CPs)
+FR: 0.1740 (546 associated Tracksters out of 661 total Tracksters)
+Num tracksters ratio: 0.7554285714285714
+
+[Electrons] Threshold = 0.294
+
+Model: Threshold 0.294
+Efficiency: 0.9931 (869 associated CPs out of 875 total CPs)
+FR: 0.1740 (546 associated Tracksters out of 661 total Tracksters)
+Num tracksters ratio: 0.7554285714285714
+
+[Electrons] Threshold = 0.296
+
+Model: Threshold 0.296
+Efficiency: 0.9931 (869 associated CPs out of 875 total CPs)
+FR: 0.1742 (545 associated Tracksters out of 660 total Tracksters)
+Num tracksters ratio: 0.7542857142857143
+
+[Electrons] Threshold = 0.298
+
+Model: Threshold 0.298
+Efficiency: 0.9931 (869 associated CPs out of 875 total CPs)
+FR: 0.1748 (543 associated Tracksters out of 658 total Tracksters)
+Num tracksters ratio: 0.752
+
+[Electrons] Threshold = 0.300
+
+Model: Threshold 0.300
+Efficiency: 0.9931 (869 associated CPs out of 875 total CPs)
+FR: 0.1766 (541 associated Tracksters out of 657 total Tracksters)
+Num tracksters ratio: 0.7508571428571429
+
+[Electrons] Threshold = 0.310
+
+Model: Threshold 0.310
+Efficiency: 0.9943 (870 associated CPs out of 875 total CPs)
+FR: 0.1845 (526 associated Tracksters out of 645 total Tracksters)
+Num tracksters ratio: 0.7371428571428571
+
+[Electrons] Threshold = 0.320
+
+Model: Threshold 0.320
+Efficiency: 0.9943 (870 associated CPs out of 875 total CPs)
+FR: 0.1862 (520 associated Tracksters out of 639 total Tracksters)
+Num tracksters ratio: 0.7302857142857143
+
+[Electrons] Threshold = 0.330
+
+Model: Threshold 0.330
+Efficiency: 0.9943 (870 associated CPs out of 875 total CPs)
+FR: 0.1880 (514 associated Tracksters out of 633 total Tracksters)
+Num tracksters ratio: 0.7234285714285714
+
+[Electrons] Threshold = 0.340
+
+Model: Threshold 0.340
+Efficiency: 0.9943 (870 associated CPs out of 875 total CPs)
+FR: 0.1914 (507 associated Tracksters out of 627 total Tracksters)
+Num tracksters ratio: 0.7165714285714285
+
+[Electrons] Threshold = 0.350
+
+Model: Threshold 0.350
+Efficiency: 0.9943 (870 associated CPs out of 875 total CPs)
+FR: 0.1987 (496 associated Tracksters out of 619 total Tracksters)
+Num tracksters ratio: 0.7074285714285714
+
+[Electrons] Threshold = 0.360
+
+Model: Threshold 0.360
+Efficiency: 0.9943 (870 associated CPs out of 875 total CPs)
+FR: 0.2029 (487 associated Tracksters out of 611 total Tracksters)
+Num tracksters ratio: 0.6982857142857143
+
+[Electrons] Threshold = 0.370
+
+Model: Threshold 0.370
+Efficiency: 0.9943 (870 associated CPs out of 875 total CPs)
+FR: 0.2103 (477 associated Tracksters out of 604 total Tracksters)
+Num tracksters ratio: 0.6902857142857143
+
+[Electrons] Threshold = 0.380
+
+Model: Threshold 0.380
+Efficiency: 0.9954 (871 associated CPs out of 875 total CPs)
+FR: 0.2134 (468 associated Tracksters out of 595 total Tracksters)
+Num tracksters ratio: 0.68
+
+[Electrons] Threshold = 0.390
+
+Model: Threshold 0.390
+Efficiency: 0.9954 (871 associated CPs out of 875 total CPs)
+FR: 0.2186 (461 associated Tracksters out of 590 total Tracksters)
+Num tracksters ratio: 0.6742857142857143
+
+[Electrons] Threshold = 0.400
+
+Model: Threshold 0.400
+Efficiency: 0.9954 (871 associated CPs out of 875 total CPs)
+FR: 0.2188 (457 associated Tracksters out of 585 total Tracksters)
+Num tracksters ratio: 0.6685714285714286
+
+[Electrons] Threshold = 0.410
+
+Model: Threshold 0.410
+Efficiency: 0.9966 (872 associated CPs out of 875 total CPs)
+FR: 0.2222 (448 associated Tracksters out of 576 total Tracksters)
+Num tracksters ratio: 0.6582857142857143
+
+[Electrons] Threshold = 0.420
+
+Model: Threshold 0.420
+Efficiency: 0.9966 (872 associated CPs out of 875 total CPs)
+FR: 0.2305 (434 associated Tracksters out of 564 total Tracksters)
+Num tracksters ratio: 0.6445714285714286
+
+[Electrons] Threshold = 0.430
+
+Model: Threshold 0.430
+Efficiency: 0.9977 (873 associated CPs out of 875 total CPs)
+FR: 0.2348 (427 associated Tracksters out of 558 total Tracksters)
+Num tracksters ratio: 0.6377142857142857
+
+[Electrons] Threshold = 0.440
+
+Model: Threshold 0.440
+Efficiency: 0.9977 (873 associated CPs out of 875 total CPs)
+FR: 0.2418 (417 associated Tracksters out of 550 total Tracksters)
+Num tracksters ratio: 0.6285714285714286
+
+[Electrons] Threshold = 0.450
+
+Model: Threshold 0.450
+Efficiency: 0.9977 (873 associated CPs out of 875 total CPs)
+FR: 0.2500 (405 associated Tracksters out of 540 total Tracksters)
+Num tracksters ratio: 0.6171428571428571
+
+[Electrons] Threshold = 0.460
+
+Model: Threshold 0.460
+Efficiency: 0.9977 (873 associated CPs out of 875 total CPs)
+FR: 0.2505 (404 associated Tracksters out of 539 total Tracksters)
+Num tracksters ratio: 0.616
+
+[Electrons] Threshold = 0.470
+
+Model: Threshold 0.470
+Efficiency: 0.9989 (874 associated CPs out of 875 total CPs)
+FR: 0.2561 (395 associated Tracksters out of 531 total Tracksters)
+Num tracksters ratio: 0.6068571428571429
+
+[Electrons] Threshold = 0.480
+
+Model: Threshold 0.480
+Efficiency: 0.9989 (874 associated CPs out of 875 total CPs)
+FR: 0.2600 (390 associated Tracksters out of 527 total Tracksters)
+Num tracksters ratio: 0.6022857142857143
+
+[Electrons] Threshold = 0.490
+
+Model: Threshold 0.490
+Efficiency: 0.9989 (874 associated CPs out of 875 total CPs)
+FR: 0.2694 (377 associated Tracksters out of 516 total Tracksters)
+Num tracksters ratio: 0.5897142857142857
+
+[Electrons] Threshold = 0.500
+
+Model: Threshold 0.500
+Efficiency: 0.9989 (874 associated CPs out of 875 total CPs)
+FR: 0.2740 (371 associated Tracksters out of 511 total Tracksters)
+Num tracksters ratio: 0.584
+
+[Electrons] Threshold = 0.510
+
+Model: Threshold 0.510
+Efficiency: 0.9989 (874 associated CPs out of 875 total CPs)
+FR: 0.2736 (369 associated Tracksters out of 508 total Tracksters)
+Num tracksters ratio: 0.5805714285714285
+
+[Electrons] Threshold = 0.520
+
+Model: Threshold 0.520
+Efficiency: 0.9989 (874 associated CPs out of 875 total CPs)
+FR: 0.2814 (360 associated Tracksters out of 501 total Tracksters)
+Num tracksters ratio: 0.5725714285714286
+
+[Electrons] Threshold = 0.530
+
+Model: Threshold 0.530
+Efficiency: 0.9989 (874 associated CPs out of 875 total CPs)
+FR: 0.2851 (356 associated Tracksters out of 498 total Tracksters)
+Num tracksters ratio: 0.5691428571428572
+
+[Electrons] Threshold = 0.540
+
+Model: Threshold 0.540
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.2863 (354 associated Tracksters out of 496 total Tracksters)
+Num tracksters ratio: 0.5668571428571428
+
+[Electrons] Threshold = 0.550
+
+Model: Threshold 0.550
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.2953 (346 associated Tracksters out of 491 total Tracksters)
+Num tracksters ratio: 0.5611428571428572
+
+[Electrons] Threshold = 0.560
+
+Model: Threshold 0.560
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.3018 (340 associated Tracksters out of 487 total Tracksters)
+Num tracksters ratio: 0.5565714285714286
+
+[Electrons] Threshold = 0.570
+
+Model: Threshold 0.570
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.3010 (339 associated Tracksters out of 485 total Tracksters)
+Num tracksters ratio: 0.5542857142857143
+
+[Electrons] Threshold = 0.580
+
+Model: Threshold 0.580
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.3040 (332 associated Tracksters out of 477 total Tracksters)
+Num tracksters ratio: 0.5451428571428572
+
+[Electrons] Threshold = 0.590
+
+Model: Threshold 0.590
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.3080 (328 associated Tracksters out of 474 total Tracksters)
+Num tracksters ratio: 0.5417142857142857
+
+[Electrons] Threshold = 0.600
+
+Model: Threshold 0.600
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.3183 (317 associated Tracksters out of 465 total Tracksters)
+Num tracksters ratio: 0.5314285714285715
+
+[Electrons] Threshold = 0.610
+
+Model: Threshold 0.610
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.3253 (309 associated Tracksters out of 458 total Tracksters)
+Num tracksters ratio: 0.5234285714285715
+
+[Electrons] Threshold = 0.620
+
+Model: Threshold 0.620
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.3333 (302 associated Tracksters out of 453 total Tracksters)
+Num tracksters ratio: 0.5177142857142857
+
+[Electrons] Threshold = 0.630
+
+Model: Threshold 0.630
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.3386 (295 associated Tracksters out of 446 total Tracksters)
+Num tracksters ratio: 0.5097142857142857
+
+[Electrons] Threshold = 0.640
+
+Model: Threshold 0.640
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.3478 (285 associated Tracksters out of 437 total Tracksters)
+Num tracksters ratio: 0.49942857142857144
+
+[Electrons] Threshold = 0.650
+
+Model: Threshold 0.650
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.3550 (278 associated Tracksters out of 431 total Tracksters)
+Num tracksters ratio: 0.49257142857142855
+
+[Electrons] Threshold = 0.660
+
+Model: Threshold 0.660
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.3566 (276 associated Tracksters out of 429 total Tracksters)
+Num tracksters ratio: 0.49028571428571427
+
+[Electrons] Threshold = 0.670
+
+Model: Threshold 0.670
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.3615 (272 associated Tracksters out of 426 total Tracksters)
+Num tracksters ratio: 0.4868571428571429
+
+[Electrons] Threshold = 0.680
+
+Model: Threshold 0.680
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.3690 (265 associated Tracksters out of 420 total Tracksters)
+Num tracksters ratio: 0.48
+
+[Electrons] Threshold = 0.690
+
+Model: Threshold 0.690
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.3669 (264 associated Tracksters out of 417 total Tracksters)
+Num tracksters ratio: 0.4765714285714286
+
+[Electrons] Threshold = 0.700
+
+Model: Threshold 0.700
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.3732 (257 associated Tracksters out of 410 total Tracksters)
+Num tracksters ratio: 0.4685714285714286
+
+[Electrons] Threshold = 0.710
+
+Model: Threshold 0.710
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.3768 (253 associated Tracksters out of 406 total Tracksters)
+Num tracksters ratio: 0.464
+
+[Electrons] Threshold = 0.720
+
+Model: Threshold 0.720
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.3837 (249 associated Tracksters out of 404 total Tracksters)
+Num tracksters ratio: 0.4617142857142857
+
+[Electrons] Threshold = 0.730
+
+Model: Threshold 0.730
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.3900 (244 associated Tracksters out of 400 total Tracksters)
+Num tracksters ratio: 0.45714285714285713
+
+[Electrons] Threshold = 0.740
+
+Model: Threshold 0.740
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.3975 (238 associated Tracksters out of 395 total Tracksters)
+Num tracksters ratio: 0.4514285714285714
+
+[Electrons] Threshold = 0.750
+
+Model: Threshold 0.750
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.4005 (235 associated Tracksters out of 392 total Tracksters)
+Num tracksters ratio: 0.448
+
+[Electrons] Threshold = 0.760
+
+Model: Threshold 0.760
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.4051 (232 associated Tracksters out of 390 total Tracksters)
+Num tracksters ratio: 0.44571428571428573
+
+[Electrons] Threshold = 0.770
+
+Model: Threshold 0.770
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.4182 (224 associated Tracksters out of 385 total Tracksters)
+Num tracksters ratio: 0.44
+
+[Electrons] Threshold = 0.780
+
+Model: Threshold 0.780
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.4193 (223 associated Tracksters out of 384 total Tracksters)
+Num tracksters ratio: 0.43885714285714283
+
+[Electrons] Threshold = 0.790
+
+Model: Threshold 0.790
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.4278 (218 associated Tracksters out of 381 total Tracksters)
+Num tracksters ratio: 0.43542857142857144
+
+[Electrons] Threshold = 0.800
+
+Model: Threshold 0.800
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.4439 (208 associated Tracksters out of 374 total Tracksters)
+Num tracksters ratio: 0.42742857142857144
+
+[Electrons] Threshold = 0.810
+
+Model: Threshold 0.810
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.4541 (202 associated Tracksters out of 370 total Tracksters)
+Num tracksters ratio: 0.4228571428571429
+
+[Electrons] Threshold = 0.820
+
+Model: Threshold 0.820
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.4578 (199 associated Tracksters out of 367 total Tracksters)
+Num tracksters ratio: 0.41942857142857143
+
+[Electrons] Threshold = 0.830
+
+Model: Threshold 0.830
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.4643 (195 associated Tracksters out of 364 total Tracksters)
+Num tracksters ratio: 0.416
+
+[Electrons] Threshold = 0.840
+
+Model: Threshold 0.840
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.4806 (187 associated Tracksters out of 360 total Tracksters)
+Num tracksters ratio: 0.4114285714285714
+
+[Electrons] Threshold = 0.850
+
+Model: Threshold 0.850
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.4916 (181 associated Tracksters out of 356 total Tracksters)
+Num tracksters ratio: 0.40685714285714286
+
+[Electrons] Threshold = 0.860
+
+Model: Threshold 0.860
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.5000 (176 associated Tracksters out of 352 total Tracksters)
+Num tracksters ratio: 0.4022857142857143
+
+[Electrons] Threshold = 0.870
+
+Model: Threshold 0.870
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.5014 (173 associated Tracksters out of 347 total Tracksters)
+Num tracksters ratio: 0.3965714285714286
+
+[Electrons] Threshold = 0.880
+
+Model: Threshold 0.880
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.5072 (170 associated Tracksters out of 345 total Tracksters)
+Num tracksters ratio: 0.3942857142857143
+
+[Electrons] Threshold = 0.890
+
+Model: Threshold 0.890
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.5131 (167 associated Tracksters out of 343 total Tracksters)
+Num tracksters ratio: 0.392
+
+[Electrons] Threshold = 0.900
+
+Model: Threshold 0.900
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.5206 (163 associated Tracksters out of 340 total Tracksters)
+Num tracksters ratio: 0.38857142857142857
+
+[Electrons] Threshold = 0.910
+
+Model: Threshold 0.910
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.5221 (162 associated Tracksters out of 339 total Tracksters)
+Num tracksters ratio: 0.38742857142857146
+
+[Electrons] Threshold = 0.920
+
+Model: Threshold 0.920
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.5343 (156 associated Tracksters out of 335 total Tracksters)
+Num tracksters ratio: 0.38285714285714284
+
+[Electrons] Threshold = 0.930
+
+Model: Threshold 0.930
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.5422 (152 associated Tracksters out of 332 total Tracksters)
+Num tracksters ratio: 0.37942857142857145
+
+[Electrons] Threshold = 0.940
+
+Model: Threshold 0.940
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.5408 (152 associated Tracksters out of 331 total Tracksters)
+Num tracksters ratio: 0.3782857142857143
+
+[Electrons] Threshold = 0.950
+
+Model: Threshold 0.950
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.5518 (147 associated Tracksters out of 328 total Tracksters)
+Num tracksters ratio: 0.37485714285714283
+
+[Electrons] Threshold = 0.960
+
+Model: Threshold 0.960
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.5648 (141 associated Tracksters out of 324 total Tracksters)
+Num tracksters ratio: 0.3702857142857143
+
+[Electrons] Threshold = 0.970
+
+Model: Threshold 0.970
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.5683 (139 associated Tracksters out of 322 total Tracksters)
+Num tracksters ratio: 0.368
+
+[Electrons] Threshold = 0.980
+
+Model: Threshold 0.980
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.5781 (135 associated Tracksters out of 320 total Tracksters)
+Num tracksters ratio: 0.3657142857142857
+
+[Electrons] Threshold = 0.990
+
+Model: Threshold 0.990
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.5781 (135 associated Tracksters out of 320 total Tracksters)
+Num tracksters ratio: 0.3657142857142857
+
+[Electrons] Threshold = 1.000
+
+Model: Threshold 1.000
+Efficiency: 1.0000 (875 associated CPs out of 875 total CPs)
+FR: 0.5918 (129 associated Tracksters out of 316 total Tracksters)
+Num tracksters ratio: 0.36114285714285715
+
+=== Electron Results ===
+     threshold  efficiency  fake_rate  num_tracksters_ratio
+0        0.000    0.955429   0.062554              1.315429
+1        0.002    0.955429   0.061793              1.313143
+2        0.004    0.955429   0.061847              1.312000
+3        0.006    0.955429   0.061901              1.310857
+4        0.008    0.955429   0.061955              1.309714
+..         ...         ...        ...                   ...
+216      0.960    1.000000   0.564815              0.370286
+217      0.970    1.000000   0.568323              0.368000
+218      0.980    1.000000   0.578125              0.365714
+219      0.990    1.000000   0.578125              0.365714
+220      1.000    1.000000   0.591772              0.361143
+
+[221 rows x 4 columns]

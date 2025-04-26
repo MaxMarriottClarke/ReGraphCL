@@ -1,0 +1,8 @@
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:04<00:00,  4.34s/it]100%|██████████| 1/1 [00:04<00:00,  4.34s/it]
+/vols/cms/mm1221/hgcal/code/code/miniconda/envs/env/lib/python3.11/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+Traceback (most recent call last):
+  File "/vols/cms/mm1221/hgcal/Mixed/tmp/Track/infer.py", line 256, in <module>
+    all_predictions = np.array(all_predictions)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (14998,) + inhomogeneous part.
