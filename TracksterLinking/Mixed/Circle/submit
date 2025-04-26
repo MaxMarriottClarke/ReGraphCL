@@ -1,0 +1,15 @@
+universe = vanilla
+executable = run.sh
+# $(ARG) will be each line from hyperparams.txt
+arguments = $(ARG)
+transfer_input_files = HardPushExt.py, data.py, model.py, train.py, hyperparams.txt
+error = logs/gpu.$(Cluster).$(Process).error
+output = logs/gpu.$(Cluster).$(Process).output
+log = logs/gpu.$(Cluster).$(Process).log
+request_cpus = 4
+request_memory=8000
+priority = 100000000
++MaxRuntime = 144000
+
+
+queue ARG from hyperparams.txt
