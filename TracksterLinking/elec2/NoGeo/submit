@@ -1,0 +1,16 @@
+executable = run.sh
+transfer_input_files = train.py
+error = logsNoGeo/gpu.$(Cluster).error
+output = logsNoGeo/gpu.$(Cluster).output
+log = logsNoGeo/gpu.$(Cluster).log
+request_gpus = 1
+request_memory = 16GB
++MaxRuntime    = 100000
+
+priority = 20
+
+requirements = (AssignedGPUs == "GPU-fedc6f6b" || AssignedGPUs == "GPU-627c72ae" || AssignedGPUs == "GPU-26b53f56" || AssignedGPUs == "GPU-5269b953")
+
+
+
+queue 

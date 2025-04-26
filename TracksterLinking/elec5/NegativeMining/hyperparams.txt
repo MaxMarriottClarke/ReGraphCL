@@ -1,0 +1,1 @@
+--hidden_dim 64 --num_layers 4 --contrastive_dim 128 --lr 0.0005

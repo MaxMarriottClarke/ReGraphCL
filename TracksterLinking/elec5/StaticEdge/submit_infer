@@ -1,0 +1,11 @@
+universe = vanilla
+executable = infer.sh
+transfer_input_files = ScriptB.py
+arguments = $(ARG)
+error = logs/gpu.$(Cluster).$(Process).error
+output = logs/gpu.$(Cluster).$(Process).output
+log = logs/gpu.$(Cluster).$(Process).log
+request_gpus = 1
+request_memory = 8G
++MaxRuntime    = 100000
+queue 

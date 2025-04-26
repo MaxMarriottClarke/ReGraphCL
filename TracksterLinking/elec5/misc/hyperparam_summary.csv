@@ -1,0 +1,7 @@
+Hyperparams,Best_Val_Loss
+lr5e-05_bs64_hd128_nl3_temp0.1_cd16_k32,tensor([0.0097])
+lr0.0005_bs64_hd128_nl3_temp0.1_cd16_k32,tensor([0.0111])
+lr1e-05_bs64_hd128_nl3_temp0.1_cd16_k32,tensor([0.0111])
+lr0.0001_bs64_hd128_nl3_temp0.1_cd16_k32,tensor([0.0097])
+lr0.001_bs64_hd128_nl3_temp0.1_cd16_k32,tensor([0.0118])
+lr0.0005_bs64_hd128_nl3_temp0.1_cd16_k32,tensor([0.0116])

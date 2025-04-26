@@ -1,0 +1,17 @@
+universe = vanilla
+executable = run.sh
+arguments = $(ARG)
+transfer_input_files = HyperParam.py, hyperparam_generator.txt
+error = logs/Trans/gpu.$(Cluster).$(Process).error
+output = logs/Trans/gpu.$(Cluster).$(Process).output
+log = logs/Trans/gpu.$(Cluster).$(Process).log
+request_cpus = 8
+request_memory = 32000
++MaxRuntime    = 100000
+
+priority = 100000
+
+
+
+
+queue ARG from hyperparam_generator.txt
