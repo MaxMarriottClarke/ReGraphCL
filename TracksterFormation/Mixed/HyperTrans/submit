@@ -1,0 +1,17 @@
+universe = vanilla
+executable = run.sh
+arguments = $(ARG)
+transfer_input_files = HyperParam.py, hyperparam_generator.txt
+error = logs/gpu.$(Cluster).$(Process).error
+output = logs/gpu.$(Cluster).$(Process).output
+log = logs/gpu.$(Cluster).$(Process).log
+request_gpus = 1
+request_memory = 16000
++MaxRuntime    = 100000
+
+priority = 100000
+
+requirements = (AssignedGPUs == "GPU-fedc6f6b" || AssignedGPUs == "GPU-627c72ae" || AssignedGPUs == "GPU-26b53f56" || AssignedGPUs == "GPU-5269b953")
+
+
+queue ARG from hyperparam_generator.txt
