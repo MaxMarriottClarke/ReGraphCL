@@ -44,6 +44,11 @@ The `Validation` directory provides the scripts you need to run inference with t
 
 2. **Install dependencies** (e.g., Python 3.8+, PyTorch, PyG, etc.):
    - my miniconda environement is not saved here, a requirements.txt will be made. Most of this was trained using a custom miniconda environment. TIP: If working with CUDA, make sure the PyG version matches with the PyTorch, otherwise annoying errors will occur. Also by using custom envioronments rather than the CERN source, you might be able to access more GPU's ;).
+   - If on imperial HEP Cluster, you can just run:
+   ```
+   source /vols/cms/mm1221/hgcal/code/code/miniconda/etc/profile.d/conda.sh 
+   conda activate env
+   ```
 
 3. **Run training**:
    - To train a model, all the condor submit and run.sh files are provided. Check https://www.imperial.ac.uk/computing/people/csg/services/hpc/condor/ for helpful advice.
