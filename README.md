@@ -1,6 +1,6 @@
 # ReGraphCL
 
-This repository contains the code used for Chapters 5 and 6 of my thesis, as well as validation and inference notebooks.
+This repository contains the code used for my thesis :) 
 
 ## Directory Structure
 
