@@ -58,7 +58,22 @@ The `Validation` directory provides the scripts you need to run inference with t
 
 ---
 
-For detailed instructions and parameter descriptions, see the individual `README.md` files in each subdirectory (if present), or refer to the thesis document for theoretical background and experimental setup.
+For detailed instructions, see the individual `README.md` files in each subdirectory (if present), or refer to the thesis document for theoretical background and experimental setup.
+
+---
+
+## How to cite
+
+If you use this code in your work, please cite:
+
+```bibtex
+@misc{2025ReGraphCL,
+  author       = {Bainbridge, Robert and Gouskas, Loukas and Maier, Benedikt and Marriott-Clarke, Max and Novaković, Lazar and Ratzer, Elizabeth},
+  title        = {ReGraphCL: A GNN Contrastive-Learning Method for HGCAL Event Reconstruction},
+  year         = {2025},
+  howpublished = {\url{https://github.com/MaxMarriottClarke/ReGraphCL}},
+  note         = {Accessed: 2025-04-28}
+}
 
 
  
