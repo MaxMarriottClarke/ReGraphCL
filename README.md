@@ -62,7 +62,7 @@ For detailed instructions, see the individual `README.md` files in each subdirec
 
 ## Contributions
 
-- **Max Marriott-Clarke** † and **Elizabeth Ratzer** †: Co–principal developers of the training and validation pipelines, including all scripts in `TracksterFormation` and Jupyter notebooks in `Validation`.  
+- **Max Marriott-Clarke** † and **Elizabeth Ratzer** †: Co–principal developers of the training and validation pipelines, including all scripts in `TracksterFormation`, `TracksterLinking` and Jupyter notebooks in `Validation`.  
 - **Loukas Gouskas** & **Lazar Novaković**: Created the initial repository structure and implemented the two-particle proof-of-concept code.  
 - **Robert Bainbridge** & **Benedikt Maier**: Provided theoretical guidance on GNN design, loss functions, evaluation metrics, and contributed to experimental design discussions.  
 
