@@ -1,6 +1,6 @@
 # ReGraphCL
 
-This repository contains the code used for my thesis :) 
+This repository contains the code used for our Graph Contrastive Learning approach to event reconstruction in the HGCAL, CMS! 
 
 ## Directory Structure
 
