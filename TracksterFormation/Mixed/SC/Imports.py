@@ -3,6 +3,10 @@ from sklearn.cluster import AgglomerativeClustering
 import pandas as pd
 from tqdm import tqdm
 
+"""
+Defines important imports for the Validation, Not needed for Training...
+"""
+
 def Aggloremative(all_predictions,  threshold = 0.7, metric = 'cosine', linkage = 'average'):
     all_cluster_labels = []             
 
